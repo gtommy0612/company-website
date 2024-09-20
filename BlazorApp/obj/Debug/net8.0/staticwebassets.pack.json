@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/obj/Debug/net8.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlazorApp.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Header bg.png",
+      "PackagePath": "staticwebassets/assets/Header bg.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/ICHC.png",
+      "PackagePath": "staticwebassets/assets/ICHC.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/logikco logo.png",
+      "PackagePath": "staticwebassets/assets/logikco logo.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/logikco logo.svg",
+      "PackagePath": "staticwebassets/assets/logikco logo.svg"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/blazorCulture.js",
+      "PackagePath": "staticwebassets/blazorCulture.js"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/styles/all.css",
+      "PackagePath": "staticwebassets/styles/all.css"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/styles/all.css.map",
+      "PackagePath": "staticwebassets/styles/all.css.map"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/styles/all.scss",
+      "PackagePath": "staticwebassets/styles/all.scss"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.BlazorApp.props",
+      "PackagePath": "build\\BlazorApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\BlazorApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BlazorApp.props",
+      "PackagePath": "buildTransitive\\BlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
