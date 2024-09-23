@@ -2,18 +2,22 @@ using BlazorApp.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddLocalization();
+builder.Services.AddControllers();
+
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 var app = builder.Build();
 
-// 
-// Add localization
-// builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
-// builder.Services.AddRazorPages();
-// builder.Services.AddServerSideBlazor();
+string[] supportedCultures = ["en-US", "zh-TW"];
+var localizationOptions = new RequestLocalizationOptions()
+    .SetDefaultCulture(supportedCultures[0])
+    .AddSupportedCultures(supportedCultures)
+    .AddSupportedUICultures(supportedCultures);
 
+app.UseRequestLocalization(localizationOptions);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -27,6 +31,8 @@ app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 app.UseAntiforgery();
+
+app.MapControllers();
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();

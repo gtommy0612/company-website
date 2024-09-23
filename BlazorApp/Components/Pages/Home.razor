@@ -1,239 +1,246 @@
 ﻿@page "/"
+@using Microsoft.Extensions.Localization
+@using BlazorApp.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
 
-<PageTitle>Home</PageTitle>
+<PageTitle>@localizer["Home"]</PageTitle>
 
-    <!-- Hero section -->
-    <section class="hero container-fluid px-0">
-        <div class="container-md py-5 custom-pad">
-            <span class="row px-0">
-                <h1 class="col-md-6" style="text-align:start; font-size: 3.75rem;">Modern Solutions Made By Real People</h1>
-                <h1 class="col-md-6" style="text-align:start; font-size: 3.75rem;"></h1>
-                <p class="col-md-8" style="font-size: 1.25rem;" >Your Trusted Partner for Innovative Software Development, Tailored to Your Needs.</p>
-            </span>
-            <button class="btn btn-light">Learn more</button>
 
-        </div>
-    </section>
+<!-- Hero section -->
+<section class="hero container-fluid px-0">
+    <div class="container-md py-5 custom-pad">
+        <span class="row px-0">
+            <h2 class="col-md-6 mb-3" style="text-align:start; font-size: 3.75rem;">@localizer["HeroSection_slogan"]</h2>
+            <p class="col-md-8 mb-3" style="font-size: 1.25rem;" >@localizer["HeroSection_text"]</p>
+        </span>
+        <button class="btn btn-light">@localizer["HeroSection_CTA"]</button>
+    </div>
+</section>
 
-    <!-- Service & Solutions -->
-    <div style="background-color: #F5F5F5;">
-        <section class="container-md py-5 custom-pad">
-            <h4 class="text-primary">Our service</h4>
-            <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
-                <div class="col">
-                    <div class="custom-card bg-white p-4">
-                        <span class="material-symbols-outlined icon">
-                            cell_merge
-                        </span>
-                        <span>
-                            <h6 class="text-primary">System Integration Services</h6>
-                            <p>Setting A New Standard
-                            It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. </p>
-                        </span>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="custom-card bg-white p-4">
-                        <span class="material-symbols-outlined icon">
-                            instant_mix
-                        </span>
-                        <span>
-                            <h6 class="text-primary">Customized Software Development</h6>
-                            <p>Setting A New Standard
-                            It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. </p>
-                        </span>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="custom-card bg-white p-4">
-                        <span class="material-symbols-outlined icon">
-                            account_balance
-                        </span>
-                        <span>
-                            <h6 class="text-primary">Government Projects</h6>
-                            <p>Setting A New Standard
-                            It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. </p>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Solutions -->
-        <section class="container-md py-5 custom-pad">
-            <h4 class="text-primary">Solutions</h4>
-            <ul class="nav nav-pills nav-justified">
-                <li class="nav-item ">
-                  <a class="btn btn-primary nav-link active" href="#">Emergency Dispatch</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Education</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Records Management</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Automated Scheduling</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Transportation</a>
-                </li>
-            </ul>
-        
-            <div class="row row-cols-1 row-cols-md-2 align-items-md-star g-5 py-5">
-                <div class="col-md-5">
+<!-- Service & Solutions -->
+<div style="background-color: #F5F5F5;">
+    <section class="container-md py-5 custom-pad">
+        <h4 class="text-primary">Our service</h4>
+        <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+            <div class="col">
+                <div class="custom-card bg-white p-4">
+                    <span class="material-symbols-outlined icon">
+                        cell_merge
+                    </span>
                     <span>
                         <h6 class="text-primary">System Integration Services</h6>
                         <p>Setting A New Standard
                         It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. </p>
-                        <a href="#" class="btn btn-primary btn-lg">Primary button</a>
-
                     </span>
                 </div>
-                <div class="col-md-7 d-flex flex-column align-items-start gap-2" style="height: 350px;">
-                    <img src="https://picsum.photos/200/300" alt="">
-                </div>
-        
-
             </div>
-        </section>
-    </div>
-
-    <!-- Success -->
-    <div style="background-color: #102389;">
-        <section class="container-md py-5 custom-pad" style="color: white;">
-            <h4>Success</h4>
-            <div class="row g-4 py-3 row-cols-lg-2">
-                <div class="col-md-4">
-                    Setting A New Standard
-                    It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.
-                </div>
-                <div class="col-md-8 d-flex justify-content-between">
-                    <span>123</span>
-                    <span>123</span>
-                    <span>123</span>
-                    <span>123</span>
+            <div class="col">
+                <div class="custom-card bg-white p-4">
+                    <span class="material-symbols-outlined icon">
+                        instant_mix
+                    </span>
+                    <span>
+                        <h6 class="text-primary">Customized Software Development</h6>
+                        <p>Setting A New Standard
+                        It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. </p>
+                    </span>
                 </div>
             </div>
+            <div class="col">
+                <div class="custom-card bg-white p-4">
+                    <span class="material-symbols-outlined icon">
+                        account_balance
+                    </span>
+                    <span>
+                        <h6 class="text-primary">Government Projects</h6>
+                        <p>Setting A New Standard
+                        It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. </p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
-                <div class="col custom-img-card" style="color:black;" >
-                    <div class="d-flex flex-column gap-3 p-4 bg-white">
+    <!-- Solutions -->
+    <section class="container-md py-5 custom-pad">
+        <h4 class="text-primary">Solutions</h4>
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Data Management</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Emergency Dispatch</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Records Management</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Automated Scheduling</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Transportation</a>
+            </li>
+        </ul>
+    
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-star g-5 py-5">
+            <div class="col-md-5">
+                <span>
+                    <h6 class="text-primary">System Integration Services</h6>
+                    <p class="mb-3">Setting A New Standard
+                    It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. </p>
+                    <a href="#" class="btn btn-primary">Primary button</a>
+
+                </span>
+            </div>
+            <div class="col-md-7 d-flex flex-column align-items-start gap-2" style="height: 350px;">
+                <img src="https://picsum.photos/200/300" alt="">
+            </div>
+    
+
+        </div>
+    </section>
+</div>
+
+<!-- Success -->
+<div style="background-color: #102389;">
+    <section class="container-md py-5 custom-pad" style="color: white;">
+        <h4>Success</h4>
+        <div class="row g-4 py-3 row-cols-lg-2">
+            <div class="col-md-4">
+                Setting A New Standard
+                It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.
+            </div>
+            <div class="col-md-8 d-flex justify-content-between">
+                <span>123</span>
+                <span>123</span>
+                <span>123</span>
+                <span>123</span>
+            </div>
+        </div>
+
+        <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+            <div class="col custom-img-card" style="color:black;" >
+                <div class="d-flex flex-column gap-3 p-4 bg-white">
+                    @* <img src="https://picsum.photos/200" alt="..." style="width: 50px; height: 50px;"> *@
+                    <span class="d-flex gap-3">
                         <img src="https://picsum.photos/200" alt="..." style="width: 50px; height: 50px;">
-                        <span class="d-flex gap-3">
-                            <img src="https://picsum.photos/200" alt="..." style="width: 50px; height: 50px;">
-                            <p style="margin: 0;">123 <br/> 123</p>
-                        </span>
-                        <p>
-                            It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.
-                        </p>
-                    </div>
-                </div>
-                <div class="col custom-img-card" style="color:black;" >
-                    <div class="d-flex flex-column gap-3 p-4 bg-white">
-                        <img src="https://picsum.photos/200" alt="..." style="width: 50px; height: 50px;">
-                        <span class="d-flex gap-3">
-                            <img src="https://picsum.photos/200" alt="..." style="width: 50px; height: 50px;">
-                            <p style="margin: 0;">123 <br/> 123</p>
-                        </span>
-                        <p>
-                            It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.
-                        </p>
-                    </div>
-                </div>
-                <div class="col custom-img-card" style="color:black;" >
-                    <div class="d-flex flex-column gap-3 p-4 bg-white">
-                        <img src="https://picsum.photos/200" alt="..." style="width: 50px; height: 50px;">
-                        <span class="d-flex gap-3">
-                            <img src="https://picsum.photos/200" alt="..." style="width: 50px; height: 50px;">
-                            <p style="margin: 0;">123 <br/> 123</p>
-                        </span>
-                        <p>
-                            It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.
-                        </p>
-                    </div>
+                        <p style="margin: 0;">User Name <br/> Job Title</p>
+                    </span>
+                    <p>
+                        It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.
+                    </p>
                 </div>
             </div>
-        </section>
-    </div>        
-
-    <!-- Tech Feed -->
-    <div style="background-color: #F5F5F5;">
-        <section class="container-md py-5 custom-pad">
-            <h4 class="text-primary">Tech feed</h4>
-            <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
-                <div class="col custom-img-card" >
-                    <img src="https://picsum.photos/200" class="card-img-top" alt="..." style="height: 8rem;">
-                    <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
-                        <span class="d-flex gap-2">
-                            <div class="d-inline-flex gap-1 align-items-center">
-                                <span class="material-symbols-outlined icon">schedule</span> 
-                                123
-                            </div>
-                            <div class="d-inline-flex gap-1 align-items-center">
-                                <span class="material-symbols-outlined icon">sell</span>   
-                                123
-                            </div>
-                        </span> 
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="" class="align-items-center"> 
-                            Read more
-                            <span class="material-symbols-outlined icon">chevron_right</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col custom-img-card" style="border-radius: 10px;">
-                    <img src="https://picsum.photos/200" class="card-img-top" alt="..." style="height: 8rem;">
-                    <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
-                        <span class="d-flex gap-2">
-                            <div class="d-inline-flex gap-1 align-items-center">
-                                <span class="material-symbols-outlined icon">schedule</span> 
-                                123
-                            </div>
-                            <div class="d-inline-flex gap-1 align-items-center">
-                                <span class="material-symbols-outlined icon">sell</span>   
-                                123
-                            </div>
-                        </span> 
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="" class="align-items-center" style=""> 
-                            Read more
-                            <span class="material-symbols-outlined icon">chevron_right</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col custom-img-card" style="border-radius: 10px !important;">
-                    <img src="https://picsum.photos/200" class="card-img-top" alt="..." style="height: 8rem;">
-                    <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
-                        <span class="d-flex gap-2">
-                            <div class="d-inline-flex gap-1 align-items-center">
-                                <span class="material-symbols-outlined icon">schedule</span> 
-                                123
-                            </div>
-                            <div class="d-inline-flex gap-1 align-items-center">
-                                <span class="material-symbols-outlined icon">sell</span>   
-                                123
-                            </div>
-                        </span> 
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="" class="align-items-center" style=""> 
-                            Read more
-                            <span class="material-symbols-outlined icon">chevron_right</span>
-                        </a>
-                    </div>
+            <div class="col custom-img-card" style="color:black;" >
+                <div class="d-flex flex-column gap-3 p-4 bg-white">
+                    @* <img src="https://picsum.photos/200" alt="..." style="width: 50px; height: 50px;"> *@
+                    <span class="d-flex gap-3">
+                        <img src="https://picsum.photos/200" alt="..." style="width: 50px; height: 50px;">
+                        <p style="margin: 0;">User Name <br/> Job Title</p>
+                    </span>
+                    <p>
+                        It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.
+                    </p>
                 </div>
             </div>
-        </section>
-    </div>
+            <div class="col custom-img-card" style="color:black;" >
+                <div class="d-flex flex-column gap-3 p-4 bg-white">
+                    @* <img src="https://picsum.photos/200" alt="..." style="width: 50px; height: 50px;"> *@
+                    <span class="d-flex gap-3">
+                        <img src="https://picsum.photos/200" alt="..." style="width: 50px; height: 50px;">
+                        <p style="margin: 0;">User Name <br/> Job Title</p>
+                    </span>
+                    <p>
+                        It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>        
 
-    <!-- Banner -->
-    <div class="bg-white banner">
-        <section class="container-md py-5 custom-pad">
-            <h4 class="text-primary">We’ve Got Your Back-end</h4>
-            <p>Want an app to streamline processes, manage data, track performance, dispatch services and goods? Need a secure hosting environment? Integration challenged? We handle everything from Algorithm to Zebibyte. So dream big. Set your bar high. Think LogiKCo.</p>
-            <button class="btn btn-primary">Rearn more</button>
-        </section>
-    </div>
+<!-- Tech Feed -->
+<div style="background-color: #F5F5F5;">
+    <section class="container-md py-5 custom-pad">
+        <h4 class="text-primary">Tech feed</h4>
+        <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+            <div class="col custom-img-card" >
+                <img src="https://picsum.photos/200" class="card-img-top" alt="..." style="height: 8rem;">
+                <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
+                    <span class="d-flex gap-2">
+                        <div class="d-inline-flex gap-1 align-items-center">
+                            <span class="material-symbols-outlined icon">schedule</span> 
+                            123
+                        </div>
+                        <div class="d-inline-flex gap-1 align-items-center">
+                            <span class="material-symbols-outlined icon">sell</span>   
+                            123
+                        </div>
+                    </span> 
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="" class="align-items-center"> 
+                        Read more
+                        <span class="material-symbols-outlined icon">chevron_right</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col custom-img-card" style="border-radius: 10px;">
+                <img src="https://picsum.photos/200" class="card-img-top" alt="..." style="height: 8rem;">
+                <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
+                    <span class="d-flex gap-2">
+                        <div class="d-inline-flex gap-1 align-items-center">
+                            <span class="material-symbols-outlined icon">schedule</span> 
+                            123
+                        </div>
+                        <div class="d-inline-flex gap-1 align-items-center">
+                            <span class="material-symbols-outlined icon">sell</span>   
+                            123
+                        </div>
+                    </span> 
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="" class="align-items-center" style=""> 
+                        Read more
+                        <span class="material-symbols-outlined icon">chevron_right</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col custom-img-card" style="border-radius: 10px !important;">
+                <img src="https://picsum.photos/200" class="card-img-top" alt="..." style="height: 8rem;">
+                <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
+                    <span class="d-flex gap-2">
+                        <div class="d-inline-flex gap-1 align-items-center">
+                            <span class="material-symbols-outlined icon">schedule</span> 
+                            123
+                        </div>
+                        <div class="d-inline-flex gap-1 align-items-center">
+                            <span class="material-symbols-outlined icon">sell</span>   
+                            123
+                        </div>
+                    </span> 
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="" class="align-items-center" style=""> 
+                        Read more
+                        <span class="material-symbols-outlined icon">chevron_right</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Banner -->
+<div class="bg-white banner">
+    <section class="container-md py-5 custom-pad">
+        <h4 class="text-primary">We’ve Got Your Back-end</h4>
+        <p>Want an app to streamline processes, manage data, track performance, dispatch services and goods? Need a secure hosting environment? Integration challenged? We handle everything from Algorithm to Zebibyte. So dream big. Set your bar high. Think LogiKCo.</p>
+        <button class="btn btn-primary">Rearn more</button>
+    </section>
+</div>
+

@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyCultureAttribute("zh-TW")]
+[assembly: System.Reflection.AssemblyCultureAttribute("en-US")]
 
 // 由 MSBuild WriteCodeFragment 類別產生。
 

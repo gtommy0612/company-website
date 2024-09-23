@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -118,7 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HeroSection_slogan" xml:space="preserve">
-    <value>專業解決方案與團隊</value>
+    <value>Modern Solutions Made By Real People</value>
+    <comment/>
+  </data>
+  <data name="HeroSection_text" xml:space="preserve">
+    <value>Welcome to your new app.</value>
+    <comment/>
+  </data>
+  <data name="HeroSection_CTA" xml:space="preserve">
+    <value>Get a demo</value>
+    <comment/>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+    <comment/>
+  </data>
+  <data name="SkillsServices" xml:space="preserve">
+    <value>Skills &amp; Services</value>
+    <comment/>
+  </data>
+  <data name="Solutions" xml:space="preserve">
+    <value>Solutions</value>
+    <comment/>
+  </data>
+  <data name="TechFeed" xml:space="preserve">
+    <value>Tech Feed</value>
+    <comment/>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact us</value>
     <comment/>
   </data>
 </root>

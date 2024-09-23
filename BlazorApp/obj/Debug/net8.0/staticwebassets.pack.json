@@ -25,10 +25,6 @@
       "PackagePath": "staticwebassets/assets/logikco logo.svg"
     },
     {
-      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/blazorCulture.js",
-      "PackagePath": "staticwebassets/blazorCulture.js"
-    },
-    {
       "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
     },

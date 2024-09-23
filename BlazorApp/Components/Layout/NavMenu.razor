@@ -1,4 +1,9 @@
-﻿<!-- Nav -->
+﻿@using Microsoft.Extensions.Localization
+@using BlazorApp.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+    
+<!-- Nav -->
 <div class="container-fluid custom-pad">
     <nav class="navbar navbar-expand-lg bg-white fixed-top" style="border-bottom: 1px solid #eee;">
         <section class="container-md custom-pad gap-3">
@@ -10,32 +15,21 @@
             <div class="collapse navbar-collapse justify-content-end align-center" id="navbarSupportedContent">
                 <ul class="navbar-nav d-flex gap-3">
                 <li class="nav-item">
-                    <a class="nav-link" href="about">About</a>
+                    <a class="nav-link" href="about">@localizer["About"]</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="skillsandservices">Skills & Services</a>
+                    <a class="nav-link" href="skillsandservices">@localizer["SkillsServices"]</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="solutions">Solutions</a>
+                    <a class="nav-link" href="solutions">@localizer["Solutions"]</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="techFeed">Tech Feed</a>
+                    <a class="nav-link" href="techFeed">@localizer["TechFeed"]</a>
                 </li>
-                <a type="button" class="nav-login btn btn-secondary text-light" target="_blank" href="contact">Contact us</a>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span class="material-symbols-outlined me-1">language</span>
-                        Language
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">繁體中文</a></li>
-                        <li><a class="dropdown-item" href="#">EN-US</a></li>
-                    
-                    </ul>
-                    </li>
+                <a type="button" class="nav-login btn btn-secondary text-light" target="_blank" href="contact">@localizer["Contact"]</a>
+                <CultureSelector />
                 </ul>
             </div>  
         </section>    
     </nav>
 </div>
-

@@ -153,6 +153,10 @@ div > img{
     }
 }
 
+.techFeed-solutions{
+    margin-top: 2rem !important;
+}
+
 // RWD //
 // xs
 @media (max-width: 576px){
@@ -208,7 +212,9 @@ div > img{
     .techFeed{
         flex-direction: row;
     }
-
+    .techFeed-solutions{
+        margin-top: 0rem;
+    }
 }
 
 @import "../node_modules/bootstrap/scss/functions"; // 必要的方法

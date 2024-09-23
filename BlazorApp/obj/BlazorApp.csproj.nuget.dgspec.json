@@ -46,7 +46,7 @@
           "dependencies": {
             "Microsoft.Extensions.Localization": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

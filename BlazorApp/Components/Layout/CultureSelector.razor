@@ -1,0 +1,32 @@
+﻿@inject NavigationManager Navigation
+@using System.Globalization
+
+<div class="dropdown">
+    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="material-symbols-outlined me-1">language</span>
+        @DisplayLanguage
+    </a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#" @onclick="@( () => SetLanguage("en-US") )">English(US)</a></li>
+        <li><a class="dropdown-item" href="#" @onclick="@( () => SetLanguage("zh-TW") )">繁體中文</a></li>
+    </ul>
+</div>
+
+@code {
+    private string Language { get; set; } = CultureInfo.CurrentCulture.Name; // 初始語言
+    
+    private string DisplayLanguage => Language == "zh-TW" ? "繁體中文" : "English(US)";
+
+    private void SetLanguage(string culture)
+    {
+        Language = culture; // 更新當前選擇的語言
+
+        // 使用 NavigationManager 手動進行頁面刷新，改變語言
+        var uri = new Uri(Navigation.Uri).GetComponents(UriComponents.PathAndQuery, UriFormat.Unescaped);
+        var cultureEscaped = Uri.EscapeDataString(culture);
+        var uriEscaped = Uri.EscapeDataString(uri);
+
+        // 模擬語言變更邏輯，重定向至更新後的頁面
+        Navigation.NavigateTo($"Culture/Set?culture={cultureEscaped}&redirectUri={uriEscaped}", forceLoad: true);
+    }
+}
