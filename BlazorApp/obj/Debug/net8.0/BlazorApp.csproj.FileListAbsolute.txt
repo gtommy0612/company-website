@@ -37,3 +37,8 @@
 /Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Debug/net8.0/zh-TW/BlazorApp.resources.dll
 /Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/obj/Debug/net8.0/zh-TW/BlazorApp.resources.cs
 /Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/obj/Debug/net8.0/zh-TW/BlazorApp.resources.dll
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/obj/Debug/net8.0/BlazorApp.csproj.AssemblyReference.cache
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Debug/net8.0/MailKit.dll
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Debug/net8.0/MimeKit.dll
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/obj/Debug/net8.0/BlazorApp.csproj.Up2Date
