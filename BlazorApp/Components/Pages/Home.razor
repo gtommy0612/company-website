@@ -14,7 +14,7 @@
             <h2 class="col-md-6 mb-3" style="text-align:start; font-size: 3.75rem;">@localizer["HeroSection_slogan"]</h2>
             <p class="col-md-8 mb-3" style="font-size: 1.25rem;" >@localizer["HeroSection_text"]</p>
         </span>
-        <button class="btn btn-light">@localizer["HeroSection_CTA"]</button>
+        <a href="/contact" class="btn btn-light">@localizer["HeroSection_CTA"]</a>
     </div>
 </section>
 
@@ -30,8 +30,7 @@
                     </span>
                     <span>
                         <h6 class="text-primary">System Integration Services</h6>
-                        <p>Setting A New Standard
-                        It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. </p>
+                        <p>We specialize in seamlessly integrating various systems and technologies to enhance operational efficiency and collaboration.</p>
                     </span>
                 </div>
             </div>
@@ -42,8 +41,7 @@
                     </span>
                     <span>
                         <h6 class="text-primary">Customized Software Development</h6>
-                        <p>Setting A New Standard
-                        It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. </p>
+                        <p>We create tailored software solutions to meet your specific needs and help you achieve your business goals.</p>
                     </span>
                 </div>
             </div>
@@ -54,8 +52,7 @@
                     </span>
                     <span>
                         <h6 class="text-primary">Government Projects</h6>
-                        <p>Setting A New Standard
-                        It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. </p>
+                        <p>We provide reliable technical support for government projects, enabling digital transformation and innovation in public services.</p>
                     </span>
                 </div>
             </div>
@@ -63,44 +60,132 @@
     </section>
 
     <!-- Solutions -->
-    <section class="container-md py-5 custom-pad">
+    <section class="container-md pb-3 custom-pad">
         <h4 class="text-primary">Solutions</h4>
-        <ul class="nav nav-pills nav-justified">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Data Management</a>
+        <ul class="nav nav-pills mb-3 d-flex justify-content-between" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active w-100" id="pills-DataManagement-tab" data-bs-toggle="pill" data-bs-target="#pills-DataManagement" type="button" role="tab" aria-controls="pills-DataManagement" aria-selected="true">Data Management</button>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Emergency Dispatch</a>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link w-100" id="pills-EmergencyDispatch-tab" data-bs-toggle="pill" data-bs-target="#pills-EmergencyDispatch" type="button" role="tab" aria-controls="pills-EmergencyDispatch" aria-selected="true">Emergency Dispatch</button>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link w-100" id="pills-Education-tab" data-bs-toggle="pill" data-bs-target="#pills-Education" type="button" role="tab" aria-controls="pills-Education" aria-selected="true">Education</button>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Records Management</a>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link w-100" id="pills-RecordsManagement-tab" data-bs-toggle="pill" data-bs-target="#pills-RecordsManagement" type="button" role="tab" aria-controls="pills-RecordsManagement" aria-selected="true">Records Management</button>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Automated Scheduling</a>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link w-100" id="pills-AutomatedScheduling-tab" data-bs-toggle="pill" data-bs-target="#pills-AutomatedScheduling" type="button" role="tab" aria-controls="pills-AutomatedScheduling" aria-selected="true">Automated Scheduling</button>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Transportation</a>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link w-100" id="pills-Transportation-tab" data-bs-toggle="pill" data-bs-target="#pills-Transportation" type="button" role="tab" aria-controls="pills-Transportation" aria-selected="true">Transportation</button>
             </li>
+            
         </ul>
-    
-        <div class="row row-cols-1 row-cols-md-2 align-items-md-star g-5 py-5">
-            <div class="col-md-5">
-                <span>
-                    <h6 class="text-primary">System Integration Services</h6>
-                    <p class="mb-3">Setting A New Standard
-                    It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. </p>
-                    <a href="#" class="btn btn-primary">Primary button</a>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-DataManagement" role="tabpanel" aria-labelledby="pills-DataManagement-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 align-items-md-star g-5 py-5">
+                    <div class="col-md-5">
+                        <span>
+                            <h6 class="text-primary">SDDS (Secure Document Delivery System)</h6>
+                            <p class="mb-3">Whether information is in a simple flat file or is complex and gathered from multiple sources, SDDS allows any organization or business to securely receive, store, manage, then share critical content.</p>
+                            <a href="/projects" class="btn btn-primary">Learn more</a>
 
-                </span>
-            </div>
-            <div class="col-md-7 d-flex flex-column align-items-start gap-2" style="height: 350px;">
-                <img src="https://picsum.photos/200/300" alt="">
-            </div>
-    
+                        </span>
+                    </div>
+                    <div class="col-md-7 d-flex flex-column align-items-start gap-2" style="height: 350px;">
+                        <img src="https://picsum.photos/200/300" alt="">
+                    </div>
+            
 
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-EmergencyDispatch" role="tabpanel" aria-labelledby="pills-EmergencyDispatch-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 align-items-md-star g-5 py-5">
+                    <div class="col-md-5">
+                        <span>
+                            <h6 class="text-primary">CAD</h6>
+                            <p class="mb-3">LogiKCo’s Computer Aided Dispatch was first developed to help Police, Fire, and EMS respond to 911 calls. As a result, our CAD is built on powerful, but flexible dispatch rules with numerous prompts and user-friendly screens allowing quick dispatch action.</p>
+                            <a href="/projects" class="btn btn-primary">Learn more</a>
+
+                        </span>
+                    </div>
+                    <div class="col-md-7 d-flex flex-column align-items-start gap-2" style="height: 350px;">
+                        <img src="https://picsum.photos/200/300" alt="">
+                    </div>
+            
+
+                </div>  
+            </div>
+            <div class="tab-pane fade" id="pills-Education" role="tabpanel" aria-labelledby="pills-Education-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 align-items-md-star g-5 py-5">
+                    <div class="col-md-5">
+                        <span>
+                            <h6 class="text-primary">SMART</h6>
+                            <p class="mb-3">Education is critical for our children; a first step towards success in life. SMART is an education tool intended to support children of migrant workers in their endeavor to graduate from high school or earn their GED.</p>
+                            <a href="/projects" class="btn btn-primary">Learn more</a>
+
+                        </span>
+                    </div>
+                    <div class="col-md-7 d-flex flex-column align-items-start gap-2" style="height: 350px;">
+                        <img src="https://picsum.photos/200/300" alt="">
+                    </div>
+            
+
+                </div>  
+            </div>
+            <div class="tab-pane fade" id="pills-RecordsManagement" role="tabpanel" aria-labelledby="pills-RecordsManagement-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 align-items-md-star g-5 py-5">
+                    <div class="col-md-5">
+                        <span>
+                            <h6 class="text-primary">RMS</h6>
+                            <p class="mb-3">RMS is a powerful and comprehensive browser-based records management system that organizes, stores, and transmits secure law enforcement and public safety information.</p>
+                            <a href="/projects" class="btn btn-primary">Learn more</a>
+
+                        </span>
+                    </div>
+                    <div class="col-md-7 d-flex flex-column align-items-start gap-2" style="height: 350px;">
+                        <img src="https://picsum.photos/200/300" alt="">
+                    </div>
+            
+
+                </div>  
+            </div>
+            <div class="tab-pane fade" id="pills-AutomatedScheduling" role="tabpanel" aria-labelledby="pills-AutomatedScheduling-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 align-items-md-star g-5 py-5">
+                    <div class="col-md-5">
+                        <span>
+                            <h6 class="text-primary">ASAP</h6>
+                            <p class="mb-3">Nothing beats great scheduling. It drives smooth operations and amps up productivity while managing costs. ASAP is LogiKCo’s solution for a web-based, automated scheduling application.</p>
+                            <a href="/projects" class="btn btn-primary">Learn more</a>
+
+                        </span>
+                    </div>
+                    <div class="col-md-7 d-flex flex-column align-items-start gap-2" style="height: 350px;">
+                        <img src="https://picsum.photos/200/300" alt="">
+                    </div>
+            
+
+                </div>   
+            </div>
+            <div class="tab-pane fade" id="pills-Transportation" role="tabpanel" aria-labelledby="pills-Emergency Dispatch-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 align-items-md-star g-5 py-5">
+                    <div class="col-md-5">
+                        <span>
+                            <h6 class="text-primary">CY</h6>
+                            <p class="mb-3">Real-time dispatch control helps container logistics operators complete tasks efficiently.</p>
+                            <a href="/projects" class="btn btn-primary">Learn more</a>
+
+                        </span>
+                    </div>
+                    <div class="col-md-7 d-flex flex-column align-items-start gap-2" style="height: 350px;">
+                        <img src="https://picsum.photos/200/300" alt="">
+                    </div>
+            
+
+                </div>     
+            </div>
         </div>
     </section>
 </div>
@@ -115,10 +200,19 @@
                 It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.
             </div>
             <div class="col-md-8 d-flex justify-content-between">
-                <span>123</span>
-                <span>123</span>
-                <span>123</span>
-                <span>123</span>
+                <span class="d-flex flex-column align-items-center">
+                    <h3>92%</h3>
+                    <p>Customer satisfaction</p>
+                </span>
+                <span class="d-flex flex-column align-items-center">
+                    <h3>20+</h3>
+                    <p>years of service</p>
+                </span>
+                <span class="d-flex flex-column align-items-center">
+                    <h3>7</h3>
+                    <p>Number of industries</p>
+                </span>
+
             </div>
         </div>
 

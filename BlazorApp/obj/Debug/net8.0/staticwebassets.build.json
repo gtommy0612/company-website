@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t4M97g8dTrwjMM1crq+SovLuDgRI88oSVvB2mIaxi/U=",
+  "Hash": "o/3vwzubNfXDNcVxLMjNtyDZE0W5JCq08S8mughPHrg=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/background.png",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/",
+      "BasePath": "_content/BlazorApp",
+      "RelativePath": "assets/background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/background.png"
     },
     {
       "Identity": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Header bg.png",

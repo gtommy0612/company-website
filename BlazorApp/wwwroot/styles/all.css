@@ -12,7 +12,8 @@ p {
 }
 
 .hero {
-  background-color: black;
+  /* background-color: black; */
+  background-image: url('/assets/background.png');
   color: white;
   display: flex;
   align-items: center;
@@ -126,14 +127,6 @@ div > img {
   overflow: hidden;
 }
 
-.techFeed {
-  display: flex;
-  flex-direction: column;
-}
-.techFeed img {
-  height: 100%;
-}
-
 @media (max-width: 576px) {
   .banner {
     display: none !important;
@@ -174,6 +167,10 @@ div > img {
   }
   .techFeed {
     flex-direction: row;
+  }
+  .techFeed img {
+    width: 35%;
+    height: auto;
   }
 }
 /*!

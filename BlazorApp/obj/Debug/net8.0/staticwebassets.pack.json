@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/assets/ICHC.png"
     },
     {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/background.png",
+      "PackagePath": "staticwebassets/assets/background.png"
+    },
+    {
       "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/logikco logo.png",
       "PackagePath": "staticwebassets/assets/logikco logo.png"
     },

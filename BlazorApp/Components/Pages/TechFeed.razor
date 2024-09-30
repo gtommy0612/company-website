@@ -8,71 +8,94 @@
 
 <!-- Content -->
 <section class="container-md custom-pad content">
-    <div class="row row-cols-1 row-cols-lg-2">
-        <div class="col col-lg-7 mb-md-5">
-            <h4>Articles</h4>
-            <div class="btn-group w-100 mb-4" role="group" aria-label="Basic radio toggle button group">
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
-                
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
-                
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
-            </div>
-            <div class="row row-cols-1" style="gap: 1rem;">
-                <div class="col techFeed" >
-                    <img src="https://picsum.photos/200" alt="...">
-                    <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
-                        <span class="d-flex gap-2">
-                            <div class="d-inline-flex gap-1 align-items-center">
-                                <span class="material-symbols-outlined icon">schedule</span> 
-                                123
-                            </div>
-                            <div class="d-inline-flex gap-1 align-items-center">
-                                <span class="material-symbols-outlined icon">sell</span>   
-                                123
-                            </div>
-                        </span> 
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="articles" class="d-flex align-items-center" style="text-decoration: none;"> 
-                            Read more
-                            <span class="material-symbols-outlined icon">chevron_right</span>
-                        </a>
-                    </div>
-                
+    <div class="row row-cols-1 row-cols-lg-3">
+        <div class="col col-lg-7 mb-5">
+            <h4 style="color: #102389">Articles</h4>
+            <ul class="nav nav-pills mb-3 d-flex justify-content-around" id="pills-tab" role="tablist">
+                <li class="nav-item w-50" role="presentation">
+                    <button class="active btn btn-outline-primary w-100" id="pills-news-tab" data-bs-toggle="pill" data-bs-target="#pills-news" type="button" role="tab" aria-controls="pills-news" aria-selected="true" style="border-radius: 6px 0px 0px 6px;">News</button>
+                </li>
+                <li class="nav-item w-50" role="presentation">
+                    <button class="btn btn-outline-primary w-100" id="pills-tech-tab" data-bs-toggle="pill" data-bs-target="#pills-tech" type="button" role="tab" aria-controls="pills-tech" aria-selected="false" style="border-radius: 0px 6px 6px 0px;">Tech</button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-news" role="tabpanel" aria-labelledby="pills-news-tab" tabindex="0">
+                    <div class="col techFeed d-flex flex-lg-row flex-column h-auto mb-3">
+                        <img src="https://picsum.photos/200" alt="...">
+                        <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
+                            <span class="d-flex gap-2">
+                                <div class="d-inline-flex gap-1 align-items-center">
+                                    <span class="material-symbols-outlined icon">schedule</span> 
+                                    2024.10.18 18:00
+                                </div>
+                                <div class="d-inline-flex gap-1 align-items-center">
+                                    <span class="material-symbols-outlined icon">sell</span>   
+                                    News
+                                </div>
+                            </span> 
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="articles" class="d-flex align-items-center" style="text-decoration: none;"> 
+                                Read more
+                                <span class="material-symbols-outlined icon">chevron_right</span>
+                            </a>
+                        </div>              
+                    </div>    
+                    <div class="col techFeed d-flex flex-lg-row flex-column h-auto mb-3">
+                        <img src="https://picsum.photos/200" alt="...">
+                        <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
+                            <span class="d-flex gap-2">
+                                <div class="d-inline-flex gap-1 align-items-center">
+                                    <span class="material-symbols-outlined icon">schedule</span> 
+                                    2024.10.18 18:00
+                                </div>
+                                <div class="d-inline-flex gap-1 align-items-center">
+                                    <span class="material-symbols-outlined icon">sell</span>   
+                                    News
+                                </div>
+                            </span> 
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="articles" class="d-flex align-items-center" style="text-decoration: none;"> 
+                                Read more
+                                <span class="material-symbols-outlined icon">chevron_right</span>
+                            </a>
+                        </div>              
+                    </div>    
                 </div>
-                <div class="col techFeed" >
-                    <img src="https://picsum.photos/200" alt="...">
-                    <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
-                        <span class="d-flex gap-2">
-                            <div class="d-inline-flex gap-1 align-items-center">
-                                <span class="material-symbols-outlined icon">schedule</span> 
-                                123
-                            </div>
-                            <div class="d-inline-flex gap-1 align-items-center">
-                                <span class="material-symbols-outlined icon">sell</span>   
-                                123
-                            </div>
-                        </span> 
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="articles" class="d-flex align-items-center" style="text-decoration: none;"> 
-                            Read more
-                            <span class="material-symbols-outlined icon">chevron_right</span>
-                        </a>
-                    </div>
-                
+                <div class="tab-pane fade" id="pills-tech" role="tabpanel" aria-labelledby="pills-tech-tab" tabindex="0">
+                    <div class="col techFeed d-flex flex-lg-row flex-column h-auto">
+                        <img src="https://picsum.photos/200" alt="...">
+                        <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
+                            <span class="d-flex gap-2">
+                                <div class="d-inline-flex gap-1 align-items-center">
+                                    <span class="material-symbols-outlined icon">schedule</span> 
+                                    2024.10.18 18:00
+                                </div>
+                                <div class="d-inline-flex gap-1 align-items-center">
+                                    <span class="material-symbols-outlined icon">sell</span>   
+                                    Tech
+                                </div>
+                            </span> 
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="articles" class="d-flex align-items-center" style="text-decoration: none;"> 
+                                Read more
+                                <span class="material-symbols-outlined icon">chevron_right</span>
+                            </a>
+                        </div>              
+                    </div>    
                 </div>
             </div>
         </div>
+
         <div class="col col-lg-1">
         </div>
         <div class="col col-lg-4 d-flex flex-column justify-content-between techFeed-solutions">
-            <span class="d-flex justify-content-between">
-                <h4>Solutions</h4>
+            <span class="d-flex justify-content-between align-items-center">
+                <h4 style="color: #102389">Solutions</h4>
                 <a class="btn btn-link" href="/solutions.html">view all</a>
             </span>
             <div class="col custom-img-card" >
@@ -89,8 +112,10 @@
     </div>
 </section>
 
+
 <style scoped>
     body{
         background-color: #F5F5F5;
-    }
+    };
+    
 </style>
