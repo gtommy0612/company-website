@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/site.js",
+      "PackagePath": "staticwebassets/site.js"
+    },
+    {
       "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/styles/all.css",
       "PackagePath": "staticwebassets/styles/all.css"
     },
