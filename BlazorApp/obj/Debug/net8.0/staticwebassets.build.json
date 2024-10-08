@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bwFtZ5832IrdblXWPD1sIvVlsSxf1vmhpZ66ICtY7Jc=",
+  "Hash": "o/3vwzubNfXDNcVxLMjNtyDZE0W5JCq08S8mughPHrg=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -224,25 +224,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.png"
-    },
-    {
-      "Identity": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/site.js",
-      "SourceId": "BlazorApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/",
-      "BasePath": "_content/BlazorApp",
-      "RelativePath": "site.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/site.js"
     },
     {
       "Identity": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/styles/all.css",
