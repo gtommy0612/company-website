@@ -1,0 +1,12 @@
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Release/net8.0/publish/BlazorApp
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Release/net8.0/publish/appsettings.Development.json
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Release/net8.0/publish/appsettings.json
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Release/net8.0/publish/BlazorApp.dll
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Release/net8.0/publish/BlazorApp.deps.json
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Release/net8.0/publish/BlazorApp.runtimeconfig.json
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Release/net8.0/publish/BlazorApp.pdb
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Release/net8.0/publish/en-US/BlazorApp.resources.dll
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Release/net8.0/publish/zh-TW/BlazorApp.resources.dll
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Release/net8.0/publish/BouncyCastle.Cryptography.dll
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Release/net8.0/publish/MailKit.dll
+/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/bin/Release/net8.0/publish/MimeKit.dll

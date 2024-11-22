@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorApp
+build_property.RootNamespace = BlazorApp
+build_property.ProjectDir = /Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/logikco.admin/Desktop/Logikco/company website/BlazorApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Layout/CultureSelector.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvQ3VsdHVyZVNlbGVjdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BYm91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Pages/Articles.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BcnRpY2xlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db250YWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Pages/Policy.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Qb2xpY3kucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Pages/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Qcm9qZWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Pages/SkillsAndServices.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ta2lsbHNBbmRTZXJ2aWNlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Pages/Solutions.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Tb2x1dGlvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Pages/TechFeed.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9UZWNoRmVlZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Pages/Terms.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9UZXJtcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Share/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZS9Db3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Share/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZS9FcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Share/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZS9XZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-fekawvbbds
+
+[/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-zswk0q6kaa
