@@ -1,16 +1,22 @@
 @page "/solutions"
-<PageTitle>Solutions</PageTitle>
+@using Microsoft.Extensions.Localization
+@using BlazorApp.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+
+<PageTitle>@localizer["NavBar_Solutions"]</PageTitle>
 
     <!-- Header -->
     <section class="container-fluid header" >
-        <h4 style="color: white;">solutions</h4>
+        <h4 style="color: white;">@localizer["NavBar_Solutions"]</h4>
     </section>
     
     <!-- Content -->
     <section class="container-md custom-pad content">
-        <h4>Projects</h4>
+        <h4>@localizer["Solutions_Projects"]</h4>
         <p>
-            It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.
+            @localizer["Solutions_Projects_P"]
+            @* It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo. *@
         </p>
         <div class="project">
             <div class="row row-cols-1 row-cols-lg-3 ">

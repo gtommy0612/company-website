@@ -1,9 +1,14 @@
 @page "/about"
-<PageTitle>About</PageTitle>
+@using Microsoft.Extensions.Localization
+@using BlazorApp.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+
+<PageTitle>@localizer["NavBar_About"]</PageTitle>
 
     <!-- Header -->
     <section class="container-fluid header" >
-        <h4 style="color: white;">ABOUT</h4>
+        <h4 style="color: white;">@localizer["NavBar_About"]</h4>
     </section>
 
     <!-- Philosophy -->
@@ -11,11 +16,12 @@
         <div class="row row-cols-1 row-cols-lg-2">
             <div class="col pe-lg-4 d-flex justify-content-center align-items-center"><img src="/assets/logikco logo.png" alt="Logikco logo" style="width: 300px; height: 5rem;"></div>
             <div  class="col ps-lg-4">
-                <h4>Our Philosophy</h4>
+                <h4>@localizer["About_Phil_Title"]</h4>
                 <p>
-                    At LogiKCo, we believe providing the right solutions for our customers is the number one priority. That means having a clear understanding of our customers’ needs. For every project we take on, our team of project managers, business analysts, and developers create a unique project plan package consisting of a document repositories, regular timeline updates, and numerous task management lists tracked and shared between project team members. 
+                    @localizer["About_Phil_P"]
+                    @* At LogiKCo, we believe providing the right solutions for our customers is the number one priority. That means having a clear understanding of our customers’ needs. For every project we take on, our team of project managers, business analysts, and developers create a unique project plan package consisting of a document repositories, regular timeline updates, and numerous task management lists tracked and shared between project team members. 
                     <br/>
-                    In-person and remote training sessions as well as personal customer support are a given. Whether we’re delivering a custom solution, integrating systems, or supporting network infrastructure, our customer’s satisfaction is always our priority.
+                    In-person and remote training sessions as well as personal customer support are a given. Whether we’re delivering a custom solution, integrating systems, or supporting network infrastructure, our customer’s satisfaction is always our priority. *@
                 </p>
             </div>
         </div>
@@ -24,7 +30,7 @@
     <!-- Certificate -->
     <div style="background-color: #F5F5F5;">
         <section class="container-md py-lg-5 py-4 custom-pad">
-            <h4>Certificate & Parners</h4>
+            <h4>@localizer["About_Certificate"]</h4>
             <div class="row row-cols-2 row-cols-lg-4">
                 <div class="col"><img src="/assets/logikco logo.png" alt="" ></div>
                 <div class="col"><img src="/assets/logikco logo.png" alt="" ></div>
@@ -41,22 +47,24 @@
                 <img src="https://picsum.photos/200" alt="">
             </div>
             <div class="col ps-lg-4 ">
-                <h4>TECHNOLOGY TRANSFORM</h4>
+                <h4>@localizer["About_Tech_Title"]</h4>
                 <p>
-                    LogiKCo provides custom IT solutions.  We’re here to help businesses and organizations improve and excel.
+                    @localizer["About_Tech_P"]
+                    @* LogiKCo provides custom IT solutions.  We’re here to help businesses and organizations improve and excel.
 
                     Think Better.  Think Faster.  Think Stronger.  Think LogiKCo. <br/>
-                    In-person and remote training sessions as well as personal customer support are a given. Whether we’re delivering a custom solution, integrating systems, or supporting network infrastructure, our customer’s satisfaction is always our priority.
+                    In-person and remote training sessions as well as personal customer support are a given. Whether we’re delivering a custom solution, integrating systems, or supporting network infrastructure, our customer’s satisfaction is always our priority. *@
                 </p>
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2">
             <div class="col pe-lg-4">
-                <h4>GOOD DESIGN MATTERS</h4>
+                <h4>@localizer["About_Good_Title"]</h4>
                 <p>
-                    LogiKCo’s IT team is here to help you develop a solution that works hard for your organization.  But good solutions need good design and great support.  Contact us today with any questions about existing or custom products.
+                    @localizer["About_Good_P"]
+                    @* LogiKCo’s IT team is here to help you develop a solution that works hard for your organization.  But good solutions need good design and great support.  Contact us today with any questions about existing or custom products.
                     <br/>
-                    Think Innovative.  Think LogiKCo.
+                    Think Innovative.  Think LogiKCo. *@
                 </p>
             </div>
             <div class="col ps-lg-4">
@@ -68,21 +76,23 @@
                 <img src="https://picsum.photos/200" alt="">
             </div>
             <div class="col ps-lg-4">
-                <h4>FROM ALGORITHM TO ZEBIBYTE</h4>
+                <h4>@localizer["About_From_Title"]</h4>
                 <p>
-                    At LogiKCo, we believe providing the right solutions for our customers is the number one priority. That means having a clear understanding of our customers’ needs. For every project we take on, our team of project managers, business analysts, and developers create a unique project plan package consisting of a document repositories, regular timeline updates, and numerous task management lists tracked and shared between project team members. 
+                    @localizer["About_From_P"]
+                    @* At LogiKCo, we believe providing the right solutions for our customers is the number one priority. That means having a clear understanding of our customers’ needs. For every project we take on, our team of project managers, business analysts, and developers create a unique project plan package consisting of a document repositories, regular timeline updates, and numerous task management lists tracked and shared between project team members. 
                     <br/>
-                    In-person and remote training sessions as well as personal customer support are a given. Whether we’re delivering a custom solution, integrating systems, or supporting network infrastructure, our customer’s satisfaction is always our priority.
+                    In-person and remote training sessions as well as personal customer support are a given. Whether we’re delivering a custom solution, integrating systems, or supporting network infrastructure, our customer’s satisfaction is always our priority. *@
                 </p>
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2">
             <div class="col pe-lg-4">
-                <h4>GOOD DESIGN MATTERS</h4>
+                <h4>@localizer["About_Employees_Title"]</h4>
                 <p>
-                    At LogiKCo, we believe providing the right solutions for our customers is the number one priority. That means having a clear understanding of our customers’ needs. For every project we take on, our team of project managers, business analysts, and developers create a unique project plan package consisting of a document repositories, regular timeline updates, and numerous task management lists tracked and shared between project team members. 
+                    @localizer["About_Employees_P"]
+                    @* At LogiKCo, we believe providing the right solutions for our customers is the number one priority. That means having a clear understanding of our customers’ needs. For every project we take on, our team of project managers, business analysts, and developers create a unique project plan package consisting of a document repositories, regular timeline updates, and numerous task management lists tracked and shared between project team members. 
                     <br/>
-                    In-person and remote training sessions as well as personal customer support are a given. Whether we’re delivering a custom solution, integrating systems, or supporting network infrastructure, our customer’s satisfaction is always our priority.
+                    In-person and remote training sessions as well as personal customer support are a given. Whether we’re delivering a custom solution, integrating systems, or supporting network infrastructure, our customer’s satisfaction is always our priority. *@
                 </p>
             </div>
             <div class="col ps-lg-4">

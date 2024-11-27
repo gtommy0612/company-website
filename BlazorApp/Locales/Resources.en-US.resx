@@ -117,36 +117,408 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HeroSection_slogan" xml:space="preserve">
-    <value>Modern Solutions Made By Real People</value>
-    <comment/>
-  </data>
-  <data name="HeroSection_text" xml:space="preserve">
-    <value>Welcome to your new app.</value>
-    <comment/>
-  </data>
-  <data name="HeroSection_CTA" xml:space="preserve">
-    <value>Get a demo</value>
-    <comment/>
-  </data>
-  <data name="About" xml:space="preserve">
+  <data name="NavBar_About" xml:space="preserve">
     <value>About</value>
     <comment/>
   </data>
-  <data name="SkillsServices" xml:space="preserve">
+  <data name="NavBar_SkillsServices" xml:space="preserve">
     <value>Skills &amp; Services</value>
     <comment/>
   </data>
-  <data name="Solutions" xml:space="preserve">
+  <data name="NavBar_Solutions" xml:space="preserve">
     <value>Solutions</value>
     <comment/>
   </data>
-  <data name="TechFeed" xml:space="preserve">
+  <data name="NavBar_TechFeed" xml:space="preserve">
     <value>Tech Feed</value>
     <comment/>
   </data>
-  <data name="Contact" xml:space="preserve">
+  <data name="NavBar_Contact" xml:space="preserve">
     <value>Contact us</value>
+    <comment/>
+  </data>
+  <data name="Footer_Copy" xml:space="preserve">
+    <value>Copyright 2024 by LogiKCo. All Rights Reserved.</value>
+    <comment/>
+  </data>
+  <data name="Footer_Privacy" xml:space="preserve">
+    <value>Privacy Statement</value>
+    <comment/>
+  </data>
+  <data name="Footer_Terms" xml:space="preserve">
+    <value>Terms</value>
+    <comment/>
+  </data>
+  <data name="Home_Hero" xml:space="preserve">
+    <value>Modern Solutions Made By Real People</value>
+    <comment/>
+  </data>
+  <data name="Home_Hero_Text" xml:space="preserve">
+    <value>Welcome to your new app.</value>
+    <comment/>
+  </data>
+  <data name="Home_Hero_CTA" xml:space="preserve">
+    <value>Get a demo</value>
+    <comment/>
+  </data>
+  <data name="Home_Service" xml:space="preserve">
+    <value>Our service</value>
+    <comment/>
+  </data>
+  <data name="Home_Service_Integration" xml:space="preserve">
+    <value>System Integration Services</value>
+    <comment/>
+  </data>
+  <data name="Home_Service_Integration_P" xml:space="preserve">
+    <value>We specialize in seamlessly integrating various systems and technologies to enhance operational efficiency and collaboration.</value>
+    <comment/>
+  </data>
+  <data name="Home_Service_Customized" xml:space="preserve">
+    <value>Customized Software Development</value>
+    <comment/>
+  </data>
+  <data name="Home_Service_Customized_P" xml:space="preserve">
+    <value>We create tailored software solutions to meet your specific needs and help you achieve your business goals.</value>
+    <comment/>
+  </data>
+  <data name="Home_Service_Government" xml:space="preserve">
+    <value>Government Projects</value>
+    <comment/>
+  </data>
+  <data name="Home_Service_Government_P" xml:space="preserve">
+    <value>We provide reliable technical support for government projects, enabling digital transformation and innovation in public services.</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Data" xml:space="preserve">
+    <value>Data Management</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Data_SDDS" xml:space="preserve">
+    <value>SDDS (Secure Document Delivery System)</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Data_SDDS_P" xml:space="preserve">
+    <value>Whether information is in a simple flat file or is complex and gathered from multiple sources, SDDS allows any organization or business to securely receive, store, manage, then share critical content.</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Emergency" xml:space="preserve">
+    <value>Emergency Dispatch</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Emergency_CAD" xml:space="preserve">
+    <value>CAD</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Emergency_CAD_P" xml:space="preserve">
+    <value>LogiKCo’s Computer Aided Dispatch was first developed to help Police, Fire, and EMS respond to 911 calls. As a result, our CAD is built on powerful, but flexible dispatch rules with numerous prompts and user-friendly screens allowing quick dispatch action.</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Edu" xml:space="preserve">
+    <value>Education</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Edu_SMART" xml:space="preserve">
+    <value>SMART</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Edu_SMART_P" xml:space="preserve">
+    <value>Education is critical for our children; a first step towards success in life. SMART is an education tool intended to support children of migrant workers in their endeavor to graduate from high school or earn their GED.</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Records" xml:space="preserve">
+    <value>Records Management</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Records_RMS" xml:space="preserve">
+    <value>RMS</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Records_RMS_P" xml:space="preserve">
+    <value>RMS is a powerful and comprehensive browser-based records management system that organizes, stores, and transmits secure law enforcement and public safety information.</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Auto" xml:space="preserve">
+    <value>Automated Scheduling</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Auto_ASAP" xml:space="preserve">
+    <value>ASAP</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Auto_ASAP_P" xml:space="preserve">
+    <value>Nothing beats great scheduling. It drives smooth operations and amps up productivity while managing costs. ASAP is LogiKCo’s solution for a web-based, automated scheduling application.</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Trans" xml:space="preserve">
+    <value>Transportation</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Trans_CY" xml:space="preserve">
+    <value>CY</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Trans_CY_P" xml:space="preserve">
+    <value>Real-time dispatch control helps container logistics operators complete tasks efficiently.</value>
+    <comment/>
+  </data>
+  <data name="Home_Success" xml:space="preserve">
+    <value>Success</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_P" xml:space="preserve">
+    <value>Setting A New Standard It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_M_Customer" xml:space="preserve">
+    <value>Customer satisfaction</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_M_Years" xml:space="preserve">
+    <value>years of service</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_M_Industry" xml:space="preserve">
+    <value>Number of industries</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U1_Name" xml:space="preserve">
+    <value>User Name</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U1_JD" xml:space="preserve">
+    <value>Job Title</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U1_P" xml:space="preserve">
+    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U2_Name" xml:space="preserve">
+    <value>User Name</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U2_JD" xml:space="preserve">
+    <value>Job Title</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U2_P" xml:space="preserve">
+    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U3_Name" xml:space="preserve">
+    <value>User Name</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U3_JD" xml:space="preserve">
+    <value>Job Title</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U3_P" xml:space="preserve">
+    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="Home_TF_C1" xml:space="preserve">
+    <value>Card Title 01</value>
+    <comment/>
+  </data>
+  <data name="Home_TF_C1_P" xml:space="preserve">
+    <value>Some quick example text to build on the card title and make up the bulk of the card's content.</value>
+    <comment/>
+  </data>
+  <data name="Home_TF_C2" xml:space="preserve">
+    <value>Card Title 02</value>
+    <comment/>
+  </data>
+  <data name="Home_TF_C2_P" xml:space="preserve">
+    <value>Some quick example text to build on the card title and make up the bulk of the card's content.</value>
+    <comment/>
+  </data>
+  <data name="Home_TF_C3" xml:space="preserve">
+    <value>Card Title 03</value>
+    <comment/>
+  </data>
+  <data name="Home_TF_C3_P" xml:space="preserve">
+    <value>Some quick example text to build on the card title and make up the bulk of the card's content.</value>
+    <comment/>
+  </data>
+  <data name="Home_GotYou_Title" xml:space="preserve">
+    <value>We’ve Got Your Back-end</value>
+    <comment/>
+  </data>
+  <data name="Home_GotYou_P" xml:space="preserve">
+    <value>Want an app to streamline processes, manage data, track performance, dispatch services and goods? Need a secure hosting environment? Integration challenged? We handle everything from Algorithm to Zebibyte. So dream big. Set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="About_Phil_Title" xml:space="preserve">
+    <value>Our Philosophy</value>
+    <comment/>
+  </data>
+  <data name="About_Phil_P" xml:space="preserve">
+    <value>At LogiKCo, we believe providing the right solutions for our customers is the number one priority. That means having a clear understanding of our customers’ needs. For every project we take on, our team of project managers, business analysts, and developers create a unique project plan package consisting of a document repositories, regular timeline updates, and numerous task management lists tracked and shared between project team members. In-person and remote training sessions as well as personal customer support are a given. Whether we’re delivering a custom solution, integrating systems, or supporting network infrastructure, our customer’s satisfaction is always our priority.</value>
+    <comment/>
+  </data>
+  <data name="About_Certificate" xml:space="preserve">
+    <value>Certificate &amp; Parners</value>
+    <comment/>
+  </data>
+  <data name="About_Tech_Title" xml:space="preserve">
+    <value>TECHNOLOGY TRANSFORM</value>
+    <comment/>
+  </data>
+  <data name="About_Tech_P" xml:space="preserve">
+    <value>LogiKCo provides custom IT solutions.  We’re here to help businesses and organizations improve and excel.  Think Better.  Think Faster.  Think Stronger.</value>
+    <comment/>
+  </data>
+  <data name="About_Good_Title" xml:space="preserve">
+    <value>GOOD DESIGN MATTERS</value>
+    <comment/>
+  </data>
+  <data name="About_Good_P" xml:space="preserve">
+    <value>LogiKCo’s IT team is here to help you develop a solution that works hard for your organization.  But good solutions need good design and great support.  Contact us today with any questions about existing or custom products.  Think Innovative.  Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="About_From_Title" xml:space="preserve">
+    <value>FROM ALGORITHM TO ZEBIBYTE</value>
+    <comment/>
+  </data>
+  <data name="About_From_P" xml:space="preserve">
+    <value>LogiKCo provides IT services and support in any way that betters your organization.  Think Turnkey.  Think A La Carte.  Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="About_Employees_Title" xml:space="preserve">
+    <value>EMPLOYEES AND CUSTOMERS</value>
+    <comment/>
+  </data>
+  <data name="About_Employees_P" xml:space="preserve">
+    <value>The right IT solution will give your employees powerful tools, it will provide your management with insightful reports, and it will pay off with happy customers.  Think Technology.  Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process" xml:space="preserve">
+    <value>Process</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_P" xml:space="preserve">
+    <value>It is about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step01_Title" xml:space="preserve">
+    <value>Step 01. Requirement and Research</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step02_Title" xml:space="preserve">
+    <value>Step 02. Design Phase</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step03_Title" xml:space="preserve">
+    <value>Step 03. System Design</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step04_Title" xml:space="preserve">
+    <value>Step 04. Development</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step05_Title" xml:space="preserve">
+    <value>Step 05. Testing and Validation</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step06_Title" xml:space="preserve">
+    <value>Step 06. Deployment and Maintenance</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step01_P" xml:space="preserve">
+    <value>Communicate with clients or users, gather requirements, conduct user research and needs analysis to identify core functionalities and user pain points.</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step02_P" xml:space="preserve">
+    <value>Includes UX and UI design, creating wireframes, user flows, and high-fidelity designs to ensure the best user experience and interface design.</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step03_P" xml:space="preserve">
+    <value>Define the software architecture based on requirements and design, including database design, module division, and technology selection.</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step04_P" xml:space="preserve">
+    <value>Write code based on system design and UX/UI design, turning designs into functional software features.</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step05_P" xml:space="preserve">
+    <value>Conduct comprehensive testing, including functional, performance, usability, and compatibility tests, to ensure the software meets requirements and has no major defects.</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step06_P" xml:space="preserve">
+    <value>Deploy the software to the production environment, and continuously monitor and maintain it, fix bugs, and improve features to ensure stable operation.</value>
+    <comment/>
+  </data>
+  <data name="Skills_WhyChooseLogikco" xml:space="preserve">
+    <value>Why Choose Logikco?</value>
+    <comment/>
+  </data>
+  <data name="Skills_WhyChooseLogikco_P" xml:space="preserve">
+    <value>Want an app to streamline processes, manage data, track performance, dispatch services and goods? Need a secure hosting environment? Integration challenged? We handle everything from Algorithm to Zebibyte. So dream big. Set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="Solutions_Projects" xml:space="preserve">
+    <value>Projects</value>
+    <comment/>
+  </data>
+  <data name="Solutions_Projects_P" xml:space="preserve">
+    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="TechFeed_Articles" xml:space="preserve">
+    <value>Articles</value>
+    <comment/>
+  </data>
+  <data name="TechFeed_Articles_News" xml:space="preserve">
+    <value>News</value>
+    <comment/>
+  </data>
+  <data name="TechFeed_Articles_Tech" xml:space="preserve">
+    <value>Tech</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Office" xml:space="preserve">
+    <value>Our Office</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Office_P" xml:space="preserve">
+    <value>Whether you are interested in one of LogiKCo’s custom solutions or need technical assistance, we’re here to help in any way we can.</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Office_US" xml:space="preserve">
+    <value>USA</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Office_TW" xml:space="preserve">
+    <value>Taiwan</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_First" xml:space="preserve">
+    <value>First Name</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_Last" xml:space="preserve">
+    <value>Last Name</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_Subject" xml:space="preserve">
+    <value>Subject</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_Company" xml:space="preserve">
+    <value>Company</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_Email" xml:space="preserve">
+    <value>Email address</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_Message" xml:space="preserve">
+    <value>Message</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_Submit" xml:space="preserve">
+    <value>Submit</value>
     <comment/>
   </data>
 </root>

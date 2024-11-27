@@ -117,36 +117,408 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HeroSection_slogan" xml:space="preserve">
-    <value>由真正的人創造的現代解決方案</value>
-    <comment/>
-  </data>
-  <data name="HeroSection_text" xml:space="preserve">
-    <value>為您量身打造創新軟體開發的可信賴夥伴</value>
-    <comment/>
-  </data>
-  <data name="HeroSection_CTA" xml:space="preserve">
-    <value>聯絡我們</value>
-    <comment/>
-  </data>
-  <data name="About" xml:space="preserve">
+  <data name="NavBar_About" xml:space="preserve">
     <value>關於我們</value>
     <comment/>
   </data>
-  <data name="SkillsServices" xml:space="preserve">
-    <value>服務方案</value>
+  <data name="NavBar_SkillsServices" xml:space="preserve">
+    <value>技術與服務</value>
     <comment/>
   </data>
-  <data name="Solutions" xml:space="preserve">
-    <value>產品實例</value>
+  <data name="NavBar_Solutions" xml:space="preserve">
+    <value>解決方案</value>
     <comment/>
   </data>
-  <data name="TechFeed" xml:space="preserve">
-    <value>最新消息</value>
+  <data name="NavBar_TechFeed" xml:space="preserve">
+    <value>部落格文章</value>
     <comment/>
   </data>
-  <data name="Contact" xml:space="preserve">
+  <data name="NavBar_Contact" xml:space="preserve">
     <value>聯絡我們</value>
+    <comment/>
+  </data>
+  <data name="Footer_Copy" xml:space="preserve">
+    <value>2024 LogiKCo 版權所有 </value>
+    <comment/>
+  </data>
+  <data name="Footer_Privacy" xml:space="preserve">
+    <value>隱私權政策</value>
+    <comment/>
+  </data>
+  <data name="Footer_Terms" xml:space="preserve">
+    <value>使用條款</value>
+    <comment/>
+  </data>
+  <data name="Home_Hero" xml:space="preserve">
+    <value>真人製作的解決方式</value>
+    <comment/>
+  </data>
+  <data name="Home_Hero_Text" xml:space="preserve">
+    <value>您值得信賴的創新軟體開發合作夥伴，並根據您的需求量身定制</value>
+    <comment/>
+  </data>
+  <data name="Home_Hero_CTA" xml:space="preserve">
+    <value>查看展示</value>
+    <comment/>
+  </data>
+  <data name="Home_Service" xml:space="preserve">
+    <value>我們的服務</value>
+    <comment/>
+  </data>
+  <data name="Home_Service_Integration" xml:space="preserve">
+    <value>系統整合</value>
+    <comment/>
+  </data>
+  <data name="Home_Service_Integration_P" xml:space="preserve">
+    <value>我們專注於無縫整合各種系統和技術，以提高營運效率和協作</value>
+    <comment/>
+  </data>
+  <data name="Home_Service_Customized" xml:space="preserve">
+    <value>客製化軟體開發</value>
+    <comment/>
+  </data>
+  <data name="Home_Service_Customized_P" xml:space="preserve">
+    <value>我們創建客製化的軟體解決方案來滿足您的特定需求並幫助您實現業務目標</value>
+    <comment/>
+  </data>
+  <data name="Home_Service_Government" xml:space="preserve">
+    <value>政府標案</value>
+    <comment/>
+  </data>
+  <data name="Home_Service_Government_P" xml:space="preserve">
+    <value>我們為政府計畫提供可靠的技術支持，賦能公共服務數位轉型和創新</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Data" xml:space="preserve">
+    <value>數據管理</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Data_SDDS" xml:space="preserve">
+    <value>SDDS</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Data_SDDS_P" xml:space="preserve">
+    <value>無論資訊是簡單的平面文件還是從多個來源收集的複雜訊息，SDDS 都允許任何組織或企業安全地接收、儲存、管理和共享關鍵內容</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Emergency" xml:space="preserve">
+    <value>即時調度</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Emergency_CAD" xml:space="preserve">
+    <value>CAD</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Emergency_CAD_P" xml:space="preserve">
+    <value>LogiKCo 的電腦輔助調度最初是為了幫助警察、消防和 EMS 響應 911 電話而開發的。因此，我們的 CAD 建立在強大而靈活的調度規則之上，具有大量提示和用戶友好的螢幕，可實現快速調度操作</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Edu" xml:space="preserve">
+    <value>教育</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Edu_SMART" xml:space="preserve">
+    <value>SMART</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Edu_SMART_P" xml:space="preserve">
+    <value>教育對我們的孩子至關重要；邁向人生成功的第一步。 SMART 是一種教育工具，旨在支持移工子女努力高中畢業或獲得 GED</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Records" xml:space="preserve">
+    <value>紀錄管理</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Records_RMS" xml:space="preserve">
+    <value>RMS</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Records_RMS_P" xml:space="preserve">
+    <value>RMS 是一個強大且全面的瀏覽器為基礎的記錄管理系統，用於組織、儲存和傳輸安全的執法和公共安全資訊</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Auto" xml:space="preserve">
+    <value>自動排程</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Auto_ASAP" xml:space="preserve">
+    <value>ASAP</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Auto_ASAP_P" xml:space="preserve">
+    <value>沒有什麼比出色的日程安排更重要的了。它可以推動平穩營運並提高生產力，同時管理成本。 ASAP 是 LogiKCo 的基於網路的自動調度應用程式的解決方案</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Trans" xml:space="preserve">
+    <value>貨運管理</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Trans_CY" xml:space="preserve">
+    <value>CY</value>
+    <comment/>
+  </data>
+  <data name="Home_Solutions_Trans_CY_P" xml:space="preserve">
+    <value>即時調度控制幫助貨櫃物流業者有效率地完成任務</value>
+    <comment/>
+  </data>
+  <data name="Home_Success" xml:space="preserve">
+    <value>成功案例</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_P" xml:space="preserve">
+    <value>Setting A New Standard It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_M_Customer" xml:space="preserve">
+    <value>客戶滿意度</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_M_Years" xml:space="preserve">
+    <value>服務資歷</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_M_Industry" xml:space="preserve">
+    <value>產業數</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U1_Name" xml:space="preserve">
+    <value>User Name</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U1_JD" xml:space="preserve">
+    <value>Job Title</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U1_P" xml:space="preserve">
+    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U2_Name" xml:space="preserve">
+    <value>User Name</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U2_JD" xml:space="preserve">
+    <value>Job Title</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U2_P" xml:space="preserve">
+    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U3_Name" xml:space="preserve">
+    <value>User Name</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U3_JD" xml:space="preserve">
+    <value>Job Title</value>
+    <comment/>
+  </data>
+  <data name="Home_Success_C_U3_P" xml:space="preserve">
+    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="Home_TF_C1" xml:space="preserve">
+    <value>Card Title 01</value>
+    <comment/>
+  </data>
+  <data name="Home_TF_C1_P" xml:space="preserve">
+    <value>Some quick example text to build on the card title and make up the bulk of the card's content.</value>
+    <comment/>
+  </data>
+  <data name="Home_TF_C2" xml:space="preserve">
+    <value>Card Title 02</value>
+    <comment/>
+  </data>
+  <data name="Home_TF_C2_P" xml:space="preserve">
+    <value>Some quick example text to build on the card title and make up the bulk of the card's content.</value>
+    <comment/>
+  </data>
+  <data name="Home_TF_C3" xml:space="preserve">
+    <value>Card Title 03</value>
+    <comment/>
+  </data>
+  <data name="Home_TF_C3_P" xml:space="preserve">
+    <value>Some quick example text to build on the card title and make up the bulk of the card's content.</value>
+    <comment/>
+  </data>
+  <data name="Home_GotYou_Title" xml:space="preserve">
+    <value>我們將成為您可靠的後盾</value>
+    <comment/>
+  </data>
+  <data name="Home_GotYou_P" xml:space="preserve">
+    <value>想要一個應用程式來簡化流程、管理數據、追蹤績效、調度服務和貨物嗎？需要一個安全的託管環境？整合面臨挑戰？我們處理從演算法到 Zebibyte 的所有事務。所以夢想要遠大。把你的標準定得高一些。想想 LogiKCo。</value>
+    <comment/>
+  </data>
+  <data name="About_Phil_Title" xml:space="preserve">
+    <value>開發哲學</value>
+    <comment/>
+  </data>
+  <data name="About_Phil_P" xml:space="preserve">
+    <value>在 LogiKCo，我們相信為客戶提供正確的解決方案是第一要務。這意味著要清楚了解客戶的需求。對於我們承接的每個項目，我們的專案經理、業務分析師和開發人員團隊都會創建一個獨特的專案規劃包，其中包括文件儲存庫、定期時間表更新以及專案團隊成員之間追蹤和共享的大量任務管理清單。提供面對面和遠距培訓課程以及個人客戶支援。無論我們是提供客製化解決方案、整合系統或支援網路基礎設施，客戶的滿意度始終是我們的首要任務。</value>
+    <comment/>
+  </data>
+  <data name="About_Certificate" xml:space="preserve">
+    <value>證照與合作夥伴</value>
+    <comment/>
+  </data>
+  <data name="About_Tech_Title" xml:space="preserve">
+    <value>技術變革</value>
+    <comment/>
+  </data>
+  <data name="About_Tech_P" xml:space="preserve">
+    <value>LogiKCo 提供客製化 IT 解決方案。 我們致力於幫助企業和組織改進並取得卓越成就，想得更，思考得更快，想得更堅強。</value>
+    <comment/>
+  </data>
+  <data name="About_Good_Title" xml:space="preserve">
+    <value>好的設計很重要</value>
+    <comment/>
+  </data>
+  <data name="About_Good_P" xml:space="preserve">
+    <value>LogiKCo 的 IT 團隊隨時協助您開發適合您組織的解決方案。 但好的解決方案需要好的設計和強而有力的支持。 如果對現有或客製化產品有任何疑問，請立即與我們聯繫。 思考創新。 想想 LogiKCo。</value>
+    <comment/>
+  </data>
+  <data name="About_From_Title" xml:space="preserve">
+    <value>從演算法到 ZEBBYTE</value>
+    <comment/>
+  </data>
+  <data name="About_From_P" xml:space="preserve">
+    <value>LogiKCo 以任何可以改善您的組織的方式提供 IT 服務和支援。 想想交鑰匙。 想想點菜。 想想 LogiKCo。</value>
+    <comment/>
+  </data>
+  <data name="About_Employees_Title" xml:space="preserve">
+    <value>員工和客戶</value>
+    <comment/>
+  </data>
+  <data name="About_Employees_P" xml:space="preserve">
+    <value>正確的 IT 解決方案將為您的員工提供強大的工具，為您的管理層提供富有洞察力的報告，並讓客戶滿意。 思考技術。 想想 LogiKCo。</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process" xml:space="preserve">
+    <value>開發流程</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_P" xml:space="preserve">
+    <value>It is about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step01_Title" xml:space="preserve">
+    <value>步驟 01. 需求與研究</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step02_Title" xml:space="preserve">
+    <value>步驟 02. UI/UX 設計</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step03_Title" xml:space="preserve">
+    <value>步驟 03. 系統設計</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step04_Title" xml:space="preserve">
+    <value>步驟 04. 系統開發</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step05_Title" xml:space="preserve">
+    <value>步驟 05. 測試和驗證</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step06_Title" xml:space="preserve">
+    <value>步驟 06. 部署與維護</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step01_P" xml:space="preserve">
+    <value>與客戶或使用者溝通，收集需求，進行使用者研究和需求分析，以確定核心功能和使用者痛點。</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step02_P" xml:space="preserve">
+    <value>包括 UX 和 UI 設計、建立線框圖、使用者流程和高保真設計，以確保最佳的使用者體驗和介面設計。</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step03_P" xml:space="preserve">
+    <value>根據需求和設計定義軟體架構，包括資料庫設計、模組劃分、技術選型等。</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step04_P" xml:space="preserve">
+    <value>根據系統設計和UX/UI設計編寫程式碼，將設計轉化為功能性軟體功能。</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step05_P" xml:space="preserve">
+    <value>進行全面的測試，包括功能、效能、可用性、相容性測試，確保軟體滿足需求且無重大缺陷。</value>
+    <comment/>
+  </data>
+  <data name="Skills_Process_Step06_P" xml:space="preserve">
+    <value>將軟體部署到生產環境，並持續監控與維護，修復bug，完善功能，確保穩定運作。</value>
+    <comment/>
+  </data>
+  <data name="Skills_WhyChooseLogikco" xml:space="preserve">
+    <value>為何選擇 Logikco？</value>
+    <comment/>
+  </data>
+  <data name="Skills_WhyChooseLogikco_P" xml:space="preserve">
+    <value>想要一個應用程式來簡化流程、管理數據、追蹤績效、調度服務和貨物嗎？需要一個安全的託管環境？整合面臨挑戰？我們處理從演算法到 Zebibyte 的所有事務。所以夢想要遠大。把你的標準定得高一些。想想 LogiKCo。</value>
+    <comment/>
+  </data>
+  <data name="Solutions_Projects" xml:space="preserve">
+    <value>專案項目</value>
+    <comment/>
+  </data>
+  <data name="Solutions_Projects_P" xml:space="preserve">
+    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="TechFeed_Articles" xml:space="preserve">
+    <value>文章</value>
+    <comment/>
+  </data>
+  <data name="TechFeed_Articles_News" xml:space="preserve">
+    <value>公司消息</value>
+    <comment/>
+  </data>
+  <data name="TechFeed_Articles_Tech" xml:space="preserve">
+    <value>技術分享</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Office" xml:space="preserve">
+    <value>我們的辦公室</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Office_P" xml:space="preserve">
+    <value>無論您對 LogiKCo 的客製化解決方案之一感興趣還是需要技術協助，我們都會竭盡全力為您提供協助。</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Office_US" xml:space="preserve">
+    <value>美國</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Office_TW" xml:space="preserve">
+    <value>台灣</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_First" xml:space="preserve">
+    <value>您的姓名</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_Last" xml:space="preserve">
+    <value>您的姓氏</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_Subject" xml:space="preserve">
+    <value>想詢問的主題</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_Company" xml:space="preserve">
+    <value>貴公司名稱</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_Email" xml:space="preserve">
+    <value>您的信箱</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_Message" xml:space="preserve">
+    <value>詢問內容</value>
+    <comment/>
+  </data>
+  <data name="ContactUs_Form_Submit" xml:space="preserve">
+    <value>傳送</value>
     <comment/>
   </data>
 </root>

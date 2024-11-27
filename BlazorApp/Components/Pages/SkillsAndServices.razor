@@ -1,15 +1,20 @@
 @page "/skillsandservices"
-<PageTitle>Skills & Services</PageTitle>
+@using Microsoft.Extensions.Localization
+@using BlazorApp.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+
+<PageTitle>@localizer["NavBar_SkillsServices"]</PageTitle>
 
     <!-- Header -->
     <section class="container-fluid header" >
-        <h4>Skills & Services</h4>
+        <h4>@localizer["NavBar_SkillsServices"]</h4>
     </section>
 
     <!-- Service -->
     <div style="background-color: #F5F5F5;">
         <section class="container-md py-5 custom-pad services">
-            <h4 class="text-primary">Our service</h4>
+            <h4 class="text-primary">@localizer["Home_Service"]</h4>
             <p>
                 It is about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.
             </p>
@@ -20,8 +25,8 @@
                             cell_merge
                         </span>
                         <span>
-                            <h6 class="text-primary">System Integration Services</h6>
-                            <p>We specialize in seamlessly integrating various systems and technologies to enhance operational efficiency and collaboration.</p>
+                            <h6 class="text-primary">@localizer["Home_Service_Integration"]</h6>
+                            <p>@localizer["Home_Service_Integration_P"]</p>
                         </span>
                     </div>
                 </div>
@@ -31,8 +36,8 @@
                             instant_mix
                         </span>
                         <span>
-                            <h6 class="text-primary">Customized Software Development</h6>
-                            <p>We create tailored software solutions to meet your specific needs and help you achieve your business goals.</p>
+                            <h6 class="text-primary">@localizer["Home_Service_Customized"]</h6>
+                            <p>@localizer["Home_Service_Customized_P"]</p>
                         </span>
                     </div>
                 </div>
@@ -42,8 +47,8 @@
                             account_balance
                         </span>
                         <span>
-                            <h6 class="text-primary">Government Projects</h6>
-                            <p>We provide reliable technical support for government projects, enabling digital transformation and innovation in public services.</p>
+                            <h6 class="text-primary">@localizer["Home_Service_Government"]</h6>
+                            <p>@localizer["Home_Service_Government_P"]</p>
                         </span>
                     </div>
                 </div>
@@ -53,7 +58,7 @@
 
     <!-- Process -->
     <section class="container-md py-5 custom-pad">
-        <h4 class="text-primary">Process</h4>
+        <h4 class="text-primary">@localizer["Skills_Process"]</h4>
         <p>
             It is about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.
         </p> 
@@ -65,8 +70,8 @@
                             cell_merge
                         </span>
                         <span>
-                            <h6 class="text-primary">Step 01. Requirement and Research</h6>
-                            <p>Communicate with clients or users, gather requirements, conduct user research and needs analysis to identify core functionalities and user pain points.</p>
+                            <h6 class="text-primary">@localizer["Skills_Process_Step01_Title"]</h6>
+                            <p>@localizer["Skills_Process_Step01_P"]</p>
                         </span>
                     </div>
                 </div>
@@ -76,8 +81,8 @@
                             instant_mix
                         </span>
                         <span>
-                            <h6 class="text-primary">Step 02. Design Phase</h6>
-                            <p>Includes UX and UI design, creating wireframes, user flows, and high-fidelity designs to ensure the best user experience and interface design.</p>
+                            <h6 class="text-primary">@localizer["Skills_Process_Step02"]</h6>
+                            <p>@localizer["Skills_Process_Step02_P"]</p>
                         </span>
                     </div>
                 </div>
@@ -87,8 +92,8 @@
                             account_balance
                         </span>
                         <span>
-                            <h6 class="text-primary">Step 03. System Design</h6>
-                            <p>Define the software architecture based on requirements and design, including database design, module division, and technology selection.</p>
+                            <h6 class="text-primary">@localizer["Skills_Process_Step03"]</h6>
+                            <p>@localizer["Skills_Process_Step03_P"]</p>
                         </span>
                     </div>
                 </div>
@@ -100,8 +105,8 @@
                             cell_merge
                         </span>
                         <span>
-                            <h6 class="text-primary">Step 04. Development</h6>
-                            <p>Write code based on system design and UX/UI design, turning designs into functional software features.</p>
+                            <h6 class="text-primary">@localizer["Skills_Process_Step04"]</h6>
+                            <p>@localizer["Skills_Process_Step04_P"]</p>
                         </span>
                     </div>
                 </div>
@@ -111,8 +116,8 @@
                             instant_mix
                         </span>
                         <span>
-                            <h6 class="text-primary">Step 05. Testing and Validation</h6>
-                            <p>Conduct comprehensive testing, including functional, performance, usability, and compatibility tests, to ensure the software meets requirements and has no major defects.</p>
+                            <h6 class="text-primary">@localizer["Skills_Process_Step05"]</h6>
+                            <p>@localizer["Skills_Process_Step05_P"]</p>
                         </span>
                     </div>
                 </div>
@@ -122,8 +127,8 @@
                             account_balance
                         </span>
                         <span>
-                            <h6 class="text-primary">Step 06. Deployment and Maintenance</h6>
-                            <p>Deploy the software to the production environment, and continuously monitor and maintain it, fix bugs, and improve features to ensure stable operation.</p>
+                            <h6 class="text-primary">@localizer["Skills_Process_Step06"]</h6>
+                            <p>@localizer["Skills_Process_Step06_P"]</p>
                         </span>
                     </div>
                 </div>
@@ -134,8 +139,8 @@
     <!-- Banner -->
     <div style="background-color: #F5F5F5;">
         <section class="container-md py-5 custom-pad">
-            <h4 class="text-primary">Why Choose Logikco?</h4>
-            <p>Want an app to streamline processes, manage data, track performance, dispatch services and goods? Need a secure hosting environment? Integration challenged? We handle everything from Algorithm to Zebibyte. So dream big. Set your bar high. Think LogiKCo.</p>
+            <h4 class="text-primary">@localizer["Skills_WhyChooseLogikco"]</h4>
+            <p>@localizer["Skills_WhyChooseLogikco"]</p>
             <button class="btn btn-primary">Rearn more</button>
         </section>
     </div>

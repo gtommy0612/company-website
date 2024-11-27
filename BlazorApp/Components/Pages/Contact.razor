@@ -3,10 +3,15 @@
 @using MailKit.Net.Smtp
 @using MimeKit
 
-<PageTitle>Contact</PageTitle> 
+@using Microsoft.Extensions.Localization
+@using BlazorApp.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+
+<PageTitle>@localizer["NavBar_Contact"]</PageTitle> 
     <!-- Header -->
     <section class="container-fluid header" >
-        <h4>CONTACT</h4>
+        <h4>@localizer["NavBar_Contact"]</h4>
     </section>
 
     <!-- Content -->
@@ -14,19 +19,19 @@
         <div class="row row-cols-1 flex-wrap-reverse">
             <div class="col-lg-5 d-flex flex-column gap-4 space-between" >
                 <span>
-                    <h4 style="color: #102389;">Our office</h4>
-                    <p>Whether you are interested in one of LogiKCo’s custom solutions or need technical assistance, we’re here to help in any way we can.</p>
+                    <h4 style="color: #102389;">@localizer["ContactUs_Office"]</h4>
+                    <p>@localizer["ContactUs_Office_P"]</p>
                 </span>
                 <div class="d-flex location justify-content-between">
                     <span style="flex: 1;">
-                        <h6>USA</h6>
+                        <h6>@localizer["ContactUs_Office_US"]</h6>
                         <p>330 Roberts Street, Suite 400East Hartford, CT 06108<br/>860.289.0728<br/>info@logikco.com</p>
                     </span>
                     <iframe style="flex: 1; width: 100%; height: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.772013753067!2d-72.62079289472318!3d41.76857303983419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6541a7d279a71%3A0x378063a058f22979!2sLogikco%2C%20Inc.!5e0!3m2!1sen!2stw!4v1726211007234!5m2!1sen!2stw" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="d-flex location justify-content-between" >
                     <span style="flex: 1;">
-                        <h6>Taiwan</h6>
+                        <h6>@localizer["ContactUs_Office_TW"]</h6>
                         <p>330 Roberts Street, Suite 400East Hartford, CT 06108<br/>860.289.0728<br/>info@logikco.com</p>
                     </span>
                     <iframe style="flex: 1; width: 100%; height: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.772013753067!2d-72.62079289472318!3d41.76857303983419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6541a7d279a71%3A0x378063a058f22979!2sLogikco%2C%20Inc.!5e0!3m2!1sen!2stw!4v1726211007234!5m2!1sen!2stw" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -40,41 +45,41 @@
 
                 <div class="d-flex flex-row gap-3">
                     <span class="w-100">
-                        <label for="firstName" class="form-label">First Name</label>
+                        <label for="firstName" class="form-label">@localizer["ContactUs_Form_First"]</label>
                         <InputText @bind-Value="EmailRequest.FirstName" class="form-control"/>
                         <ValidationMessage For="@(() => EmailRequest.FirstName)" class="text-danger" />
                     </span>
                     <span class="w-100">
-                        <label for="firstName" class="form-label">Last Name</label>
+                        <label for="firstName" class="form-label">@localizer["ContactUs_Form_Last"]</label>
                         <InputText @bind-Value="EmailRequest.LastName" class="form-control"/>
                         <ValidationMessage For="@(() => EmailRequest.LastName)" class="text-danger" />
                     </span>
                 </div>
 
                 <div>
-                    <label for="firstName" class="form-label">Subject</label>    
+                    <label for="firstName" class="form-label">@localizer["ContactUs_Form_Subject"]</label>    
                     <InputText @bind-Value="EmailRequest.Subject" class="form-control "  />
                     <ValidationMessage For="@(() => EmailRequest.Subject)" class="text-danger" />
                 </div>
                 <div>
-                    <label for="company" class="form-label">Company</label>
+                    <label for="company" class="form-label">@localizer["ContactUs_Form_Company"]</label>
                     <InputText @bind-Value="EmailRequest.Company" class="form-control"/>
                     <ValidationMessage For="@(() => EmailRequest.Company)" class="text-danger" />
                 </div>
 
                 <div>
-                    <label for="firstName" class="form-label">Your email address</label>
+                    <label for="firstName" class="form-label">@localizer["ContactUs_Form_Email"]</label>
                     <InputText @bind-Value="EmailRequest.EmailAddress" class="form-control"/>
                     <ValidationMessage For="@(() => EmailRequest.EmailAddress)" class="text-danger" />
                 </div>
 
                 <div>
-                    <label for="firstName" class="form-label">Message</label>
+                    <label for="firstName" class="form-label">@localizer["ContactUs_Form_Message"]</label>
                     <InputTextArea @bind-Value="EmailRequest.Body" class="form-control "/>
                     <ValidationMessage For="@(() => EmailRequest.Body)" class="text-danger" />
                 </div>
 
-                <button type="submit" class="btn btn-primary  w-100">Submit</button>
+                <button type="submit" class="btn btn-primary  w-100">@localizer["ContactUs_Form_Submit"]</button>
                 </EditForm>         
             </div> 
         </div>       
