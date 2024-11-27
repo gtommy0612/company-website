@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o/3vwzubNfXDNcVxLMjNtyDZE0W5JCq08S8mughPHrg=",
+  "Hash": "sc8ztUjltSkCa5Zq2vyLeEmrl7iSQ55wZ8CL3iPHhkk=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/ICHC.png"
+    },
+    {
+      "Identity": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/logikco logo_TW.png",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/",
+      "BasePath": "_content/BlazorApp",
+      "RelativePath": "assets/logikco logo_TW.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/logikco logo_TW.png"
     },
     {
       "Identity": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/logikco logo.png",
