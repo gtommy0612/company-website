@@ -17,6 +17,86 @@
       "PackagePath": "staticwebassets/assets/ICHC.png"
     },
     {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/ASAP.png",
+      "PackagePath": "staticwebassets/assets/Solutions/ASAP.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/ASAP_01.png",
+      "PackagePath": "staticwebassets/assets/Solutions/ASAP_01.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/ASAP_02.png",
+      "PackagePath": "staticwebassets/assets/Solutions/ASAP_02.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/About_01.png",
+      "PackagePath": "staticwebassets/assets/Solutions/About_01.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/About_02.png",
+      "PackagePath": "staticwebassets/assets/Solutions/About_02.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/About_03.png",
+      "PackagePath": "staticwebassets/assets/Solutions/About_03.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/About_04.png",
+      "PackagePath": "staticwebassets/assets/Solutions/About_04.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/CAD.png",
+      "PackagePath": "staticwebassets/assets/Solutions/CAD.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/CAD_01.png",
+      "PackagePath": "staticwebassets/assets/Solutions/CAD_01.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/CAD_02.png",
+      "PackagePath": "staticwebassets/assets/Solutions/CAD_02.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/CY.png",
+      "PackagePath": "staticwebassets/assets/Solutions/CY.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/CY_01.png",
+      "PackagePath": "staticwebassets/assets/Solutions/CY_01.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/CY_02.png",
+      "PackagePath": "staticwebassets/assets/Solutions/CY_02.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/RMS.png",
+      "PackagePath": "staticwebassets/assets/Solutions/RMS.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/RMS_01.png",
+      "PackagePath": "staticwebassets/assets/Solutions/RMS_01.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/RMS_02.png",
+      "PackagePath": "staticwebassets/assets/Solutions/RMS_02.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/SDDS.png",
+      "PackagePath": "staticwebassets/assets/Solutions/SDDS.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/SDDS_01.png",
+      "PackagePath": "staticwebassets/assets/Solutions/SDDS_01.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/SDDS_02.png",
+      "PackagePath": "staticwebassets/assets/Solutions/SDDS_02.png"
+    },
+    {
+      "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/Solutions/SMART.png",
+      "PackagePath": "staticwebassets/assets/Solutions/SMART.png"
+    },
+    {
       "Id": "/Users/logikco.admin/Desktop/Logikco/company website/BlazorApp/wwwroot/assets/background.png",
       "PackagePath": "staticwebassets/assets/background.png"
     },

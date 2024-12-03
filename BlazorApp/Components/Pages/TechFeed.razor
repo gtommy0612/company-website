@@ -15,7 +15,7 @@
 <section class="container-md custom-pad content">
     <div class="row row-cols-1 row-cols-lg-3">
         <div class="col col-lg-7 mb-5">
-            <h4 style="color: #102389">@localizer["TechFeed_Articles"]</h4>
+            <h4 style="color: #102389" class="mb-3">@localizer["TechFeed_Articles"]</h4>
             <ul class="nav nav-pills mb-3 d-flex justify-content-around" id="pills-tab" role="tablist">
                 <li class="nav-item w-50" role="presentation">
                     <button class="active btn btn-outline-primary w-100" id="pills-news-tab" data-bs-toggle="pill" data-bs-target="#pills-news" type="button" role="tab" aria-controls="pills-news" aria-selected="true" style="border-radius: 6px 0px 0px 6px;">@localizer["TechFeed_Articles_News"]</button>
@@ -28,43 +28,43 @@
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-news" role="tabpanel" aria-labelledby="pills-news-tab" tabindex="0">
                     <div class="col techFeed d-flex flex-lg-row flex-column h-auto mb-3">
-                        <img src="https://picsum.photos/200" alt="...">
-                        <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
+                        <img src="https://picsum.photos/200" alt="..." style="border-radius: 10px 0px 0px 10px;">
+                        <div class="bg-white p-4 d-flex flex-column align-items-start gap-3" style="border-radius: 0px 10px 10px 0px;">
                             <span class="d-flex gap-2">
                                 <div class="d-inline-flex gap-1 align-items-center">
                                     <span class="material-symbols-outlined icon">schedule</span> 
-                                    2024.10.18 18:00
+                                    @localizer["TF_Time"]
                                 </div>
                                 <div class="d-inline-flex gap-1 align-items-center">
                                     <span class="material-symbols-outlined icon">sell</span>   
-                                    News
+                                    @localizer["TF_Tag"]
                                 </div>
                             </span> 
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">@localizer["Home_TF_C1"]</h5>
+                            <p class="card-text mb-0">@localizer["Home_TF_C1_P"]</p>
                             <a href="articles" class="d-flex align-items-center" style="text-decoration: none;"> 
-                                Read more
+                                @localizer["ReadMore"]
                                 <span class="material-symbols-outlined icon">chevron_right</span>
                             </a>
                         </div>              
                     </div>    
                     <div class="col techFeed d-flex flex-lg-row flex-column h-auto mb-3">
-                        <img src="https://picsum.photos/200" alt="...">
-                        <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
+                        <img src="https://picsum.photos/200" alt="..." style="border-radius: 10px 0px 0px 10px;">
+                        <div class="bg-white p-4 d-flex flex-column align-items-start gap-3" style="border-radius: 0px 10px 10px 0px;">
                             <span class="d-flex gap-2">
                                 <div class="d-inline-flex gap-1 align-items-center">
                                     <span class="material-symbols-outlined icon">schedule</span> 
-                                    2024.10.18 18:00
+                                    @localizer["TF_Time"]
                                 </div>
                                 <div class="d-inline-flex gap-1 align-items-center">
                                     <span class="material-symbols-outlined icon">sell</span>   
-                                    News
+                                    @localizer["TF_Tag"]
                                 </div>
                             </span> 
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">@localizer["Home_TF_C2"]</h5>
+                            <p class="card-text mb-0">@localizer["Home_TF_C2_P"]</p>
                             <a href="articles" class="d-flex align-items-center" style="text-decoration: none;"> 
-                                Read more
+                                @localizer["ReadMore"]
                                 <span class="material-symbols-outlined icon">chevron_right</span>
                             </a>
                         </div>              
@@ -72,22 +72,22 @@
                 </div>
                 <div class="tab-pane fade" id="pills-tech" role="tabpanel" aria-labelledby="pills-tech-tab" tabindex="0">
                     <div class="col techFeed d-flex flex-lg-row flex-column h-auto">
-                        <img src="https://picsum.photos/200" alt="...">
-                        <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
+                        <img src="https://picsum.photos/200" alt="..." style="border-radius: 10px 0px 0px 10px;">
+                        <div class="bg-white p-4 d-flex flex-column align-items-start gap-3" style="border-radius: 0px 10px 10px 0px;">
                             <span class="d-flex gap-2">
                                 <div class="d-inline-flex gap-1 align-items-center">
                                     <span class="material-symbols-outlined icon">schedule</span> 
-                                    2024.10.18 18:00
+                                    @localizer["TF_Time"]
                                 </div>
                                 <div class="d-inline-flex gap-1 align-items-center">
                                     <span class="material-symbols-outlined icon">sell</span>   
-                                    Tech
+                                    @localizer["TF_Tag"]
                                 </div>
                             </span> 
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">@localizer["Home_TF_C3"]</h5>
+                            <p class="card-text mb-0">@localizer["Home_TF_C3_P"]</p>
                             <a href="articles" class="d-flex align-items-center" style="text-decoration: none;"> 
-                                Read more
+                                @localizer["ReadMore"]
                                 <span class="material-symbols-outlined icon">chevron_right</span>
                             </a>
                         </div>              
@@ -99,17 +99,17 @@
         <div class="col col-lg-1">
         </div>
         <div class="col col-lg-4 d-flex flex-column justify-content-between techFeed-solutions">
-            <span class="d-flex justify-content-between align-items-center">
-                <h4 style="color: #102389">@localizer["NavBar_Solutions"]</h4>
-                <a class="btn btn-link" href="/solutions.html">view all</a>
+            <span class="d-flex justify-content-between align-items-center mb-3">
+                <h4 class="mb-0" style="color: #102389">@localizer["NavBar_Solutions"]</h4>
+                <a class="btn btn-link" href="/solutions">view all</a>
             </span>
             <div class="col custom-img-card" >
                 <div class="cus-card-border">
-                    <img src="https://picsum.photos/200" class="card-img-top" alt="..." style="height: 8rem;">
+                    <img src="assets/Solutions/SDDS.png" class="card-img-top" alt="..." style="height: 8rem;">
                     <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
                         <h5 class="card-title">@localizer["Home_Solutions_Data_SDDS"]</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
-                        <button class="btn btn-outline-primary w-100">Learn more</button>
+                        <p class="card-text invisibleText">@localizer["Home_Solutions_Data_SDDS_P"]</p>
+                        <a class="btn btn-outline-primary w-100" href="/SDDS">@localizer["LearnMore"]</a>
                     </div>
                 </div>
             </div>
@@ -122,5 +122,13 @@
     body{
         background-color: #F5F5F5;
     };
-    
+    .invisibleText {
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        display: -webkit-box;
+    }
+    .card-title{
+        color: #102389;
+    }
 </style>

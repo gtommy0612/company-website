@@ -1,0 +1,115 @@
+@page "/CAD"
+@using Microsoft.Extensions.Localization
+@using BlazorApp.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+
+    <!-- Header -->
+    <section class="container-fluid header" >
+        <h4>CAD</h4>
+    </section>
+
+    <!-- Content-articel -->
+    <section class="container-md custom-article-pad">
+        <img src="assets/Solutions/CAD_01.png" alt="..." class="responsive-img" style="max-height: 250px; margin-top: 1rem; margin-bottom: 1rem;" >
+    </section>
+
+    <!-- Content -->
+    <section class="container-md custom-article-pad article-content">
+        <span>
+            <h5>@localizer["CAD_H1"]</h5>
+            <p>@localizer["CAD_H1_P"]</p>
+        </span>
+    </section>
+
+    <section class="container-md custom-article-pad article-content">
+        <span>
+            <h5>@localizer["CAD_H2"]</h5>
+            <p>@localizer["CAD_H2_P"]</p>
+        </span>
+    </section>
+
+    <section class="container-md custom-article-pad article-content">
+        <span>
+            <h5>@localizer["CAD_H3"]</h5>
+            <p>@localizer["CAD_H3_P"]</p>
+        </span>
+    </section>
+
+    <section class="container-md custom-article-pad article-content">
+        <span>
+            <h5>@localizer["CAD_H4"]</h5>
+            <p>@localizer["CAD_H4_P"]</p>
+        </span>
+    </section>
+
+    <section class="container-md custom-article-pad">
+        <img src="assets/Solutions/CAD_02.png" alt="..." class="responsive-img" style="max-height: 250px; margin-top: 1rem; margin-bottom: 1rem;" >
+    </section>
+    
+    <section class="container-md custom-article-pad article-content">
+        <span>
+            <h5>@localizer["CAD_H5"]</h5>
+            <p>@localizer["CAD_H5_P"]</p>
+        </span>
+    </section>
+
+    <!-- More -->
+    <div class="container-fuild" style="background-color: #F5F5F5;">
+        <section class="container-md custom-pad py-5">
+            <h4 style="text-align: center;">@localizer["MoreSolutions"]</h4>
+            <div class="project">
+                <div class="row row-cols-1 row-cols-lg-3 py-3">
+                    <div class="col custom-img-card" >
+                        <div class="cus-card-border">
+                            <img src="assets/Solutions/SDDS.png" class="card-img-top" alt="..." style="height: 8rem;">
+                            <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
+                                <h5 class="card-title">@localizer["Home_Solutions_Data_SDDS"]</h5>
+                                <p class="card-text invisibleText">@localizer["Home_Solutions_Data_SDDS_P"]</p>
+                                <a class="btn btn-outline-primary w-100" href="/SDDS">@localizer["LearnMore"]</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col custom-img-card" >
+                        <div class="cus-card-border">
+                            <img src="assets/Solutions/SMART.png" class="card-img-top" alt="..." style="height: 8rem;">
+                            <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
+                                <h5 class="card-title">@localizer["Home_Solutions_Edu_SMART"]</h5>
+                                <p class="card-text invisibleText">@localizer["Home_Solutions_Edu_SMART_P"]</p>
+                                <a class="btn btn-outline-primary w-100" href="https://smartmigrant.com/">@localizer["LearnMore"]</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col custom-img-card" >
+                        <div class="cus-card-border">
+                            <img src="assets/Solutions/CY.png" class="card-img-top" alt="..." style="height: 8rem;">
+                            <div class="bg-white p-4 d-flex flex-column align-items-start gap-3">
+                                <h5 class="card-title">@localizer["Home_Solutions_Trans_CY"]</h5>
+                                <p class="card-text invisibleText">@localizer["Home_Solutions_Trans_CY_P"]</p>
+                                <a class="btn btn-outline-primary w-100" href="/CY">@localizer["LearnMore"]</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center;"><a href="/solutions" class="btn btn-primary">@localizer["ViewMore"]</a></div>
+        </section>
+    </div>
+
+
+<style>
+    .invisibleText {
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        display: -webkit-box;
+    }
+    .responsive-img {
+        max-height: 250px; /* 設置最大高度 */
+        max-width: -webkit-fill-available;
+        width: auto; /* 寬度自動調整以保持比例 */
+        object-fit: contain; /* 保持圖片等比縮放，不會變形 */
+        display: block; /* 可選：避免 inline 元素默認的行高影響布局 */
+        margin: 0 auto; /* 可選：居中圖片 */
+    }
+</style>

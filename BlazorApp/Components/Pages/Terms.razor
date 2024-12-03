@@ -1,5 +1,12 @@
 @page "/terms"
+@using Microsoft.Extensions.Localization
+@using BlazorApp.Locales;
+@using System.Globalization
 
+@inject NavigationManager NavigationManager
+@inject IStringLocalizer<Resources> localizer
+
+@if (CultureInfo.CurrentCulture.Name.StartsWith("en")){
 <PageTitle>Terms</PageTitle>
 
     <!-- Header -->
@@ -184,4 +191,8 @@
             color: #102389;
         }
    </style>
-   
+   }
+   else
+   {
+        NavigationManager.NavigateTo("/policy");
+   }

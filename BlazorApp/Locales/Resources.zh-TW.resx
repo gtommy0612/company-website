@@ -282,63 +282,63 @@
     <comment/>
   </data>
   <data name="Home_Success_C_U1_Name" xml:space="preserve">
-    <value>User Name</value>
+    <value>客戶名稱</value>
     <comment/>
   </data>
   <data name="Home_Success_C_U1_JD" xml:space="preserve">
-    <value>Job Title</value>
+    <value>客戶職位</value>
     <comment/>
   </data>
   <data name="Home_Success_C_U1_P" xml:space="preserve">
-    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <value>自從使用即時派遣控制系統後，我們的物流作業變得更加高效。無論是調度安排還是貨物追蹤，都能即時更新，極大地減少了延誤，提升了整體服務質量。</value>
     <comment/>
   </data>
   <data name="Home_Success_C_U2_Name" xml:space="preserve">
-    <value>User Name</value>
+    <value>客戶名稱</value>
     <comment/>
   </data>
   <data name="Home_Success_C_U2_JD" xml:space="preserve">
-    <value>Job Title</value>
+    <value>客戶職位</value>
     <comment/>
   </data>
   <data name="Home_Success_C_U2_P" xml:space="preserve">
-    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <value>自從使用即時派遣控制系統後，我們的物流作業變得更加高效。無論是調度安排還是貨物追蹤，都能即時更新，極大地減少了延誤，提升了整體服務質量。</value>
     <comment/>
   </data>
   <data name="Home_Success_C_U3_Name" xml:space="preserve">
-    <value>User Name</value>
+    <value>客戶名稱</value>
     <comment/>
   </data>
   <data name="Home_Success_C_U3_JD" xml:space="preserve">
-    <value>Job Title</value>
+    <value>客戶職位</value>
     <comment/>
   </data>
   <data name="Home_Success_C_U3_P" xml:space="preserve">
-    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <value>自從使用即時派遣控制系統後，我們的物流作業變得更加高效。無論是調度安排還是貨物追蹤，都能即時更新，極大地減少了延誤，提升了整體服務質量。</value>
     <comment/>
   </data>
   <data name="Home_TF_C1" xml:space="preserve">
-    <value>Card Title 01</value>
+    <value>文章標題 01</value>
     <comment/>
   </data>
   <data name="Home_TF_C1_P" xml:space="preserve">
-    <value>Some quick example text to build on the card title and make up the bulk of the card's content.</value>
+    <value>一些簡單的範例文字，用來擴充卡片標題並構成卡片內容的主要部分。</value>
     <comment/>
   </data>
   <data name="Home_TF_C2" xml:space="preserve">
-    <value>Card Title 02</value>
+    <value>文章標題 02</value>
     <comment/>
   </data>
   <data name="Home_TF_C2_P" xml:space="preserve">
-    <value>Some quick example text to build on the card title and make up the bulk of the card's content.</value>
+    <value>一些簡單的範例文字，用來擴充卡片標題並構成卡片內容的主要部分。</value>
     <comment/>
   </data>
   <data name="Home_TF_C3" xml:space="preserve">
-    <value>Card Title 03</value>
+    <value>文章標題 03</value>
     <comment/>
   </data>
   <data name="Home_TF_C3_P" xml:space="preserve">
-    <value>Some quick example text to build on the card title and make up the bulk of the card's content.</value>
+    <value>一些簡單的範例文字，用來擴充卡片標題並構成卡片內容的主要部分。</value>
     <comment/>
   </data>
   <data name="Home_GotYou_Title" xml:space="preserve">
@@ -462,7 +462,7 @@
     <comment/>
   </data>
   <data name="Solutions_Projects_P" xml:space="preserve">
-    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <value>這是關於尋找更好的做事方式，挑戰極限，是的，設定新標準。我們正在利用科技幫助個人和組織超越期望。所以把你的標準定得高一些。想想 LogiKCo。</value>
     <comment/>
   </data>
   <data name="TechFeed_Articles" xml:space="preserve">
@@ -519,6 +519,194 @@
   </data>
   <data name="ContactUs_Form_Submit" xml:space="preserve">
     <value>傳送</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H1" xml:space="preserve">
+    <value>關於SDDS</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H2" xml:space="preserve">
+    <value>客製化</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H3" xml:space="preserve">
+    <value>僅限授權人員</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H4" xml:space="preserve">
+    <value>安全協作</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H5" xml:space="preserve">
+    <value>跟著那個指紋！</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H1_P" xml:space="preserve">
+    <value>無論資訊是簡單的平面文件還是從多個來源收集的複雜訊息，SDDS 都允許任何組織或企業安全地接收、儲存、管理和共享關鍵內容。 SDDS 還具有高度可自訂性，並擁有一個可由具有授權角色存取權的最終使用者進行設定的平台。</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H2_P" xml:space="preserve">
+    <value> 除了高度可配置的平台之外，SDDS 還允許根據需要配置內容。可以接收關鍵內容，重新格式化，然後安全地交付給授權的最終使用者。</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H3_P" xml:space="preserve">
+    <value>SDDS 可以利用各種身分識別管理系統來確保只有指定的授權人員才能存取安全資訊。</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H4_P" xml:space="preserve">
+    <value>SDDS 提供安全文件中心，以實現組織的多個機構或部門之間的無縫協作。文件中心安全、易於管理且可配置，以滿足強制性業務要求。</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H5_P" xml:space="preserve">
+    <value>SDDS 目前由聯邦和州機構使用。透過 SDDS 提供的服務，數千個執法機構能夠存取、共享和利用指紋提交和相關文件的最新關鍵資料。</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H1" xml:space="preserve">
+    <value>關於ASAP</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H2" xml:space="preserve">
+    <value>複雜的規則管理</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H3" xml:space="preserve">
+    <value>提示和警報</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H4" xml:space="preserve">
+    <value>可配置</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H5" xml:space="preserve">
+    <value>安排方式有很多！</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H1_P" xml:space="preserve">
+    <value>ASAP 最初是為 911 調度中心、警察和消防部門等公共安全組織設計的，因為他們的員工需要 24/7 全天候待命，以服務和保護他們的社區。他們的日程安排要求是分層且複雜的，經常隨著工會規則和指南的演變而變化。  如今，公共安全部門仍在使用我們的調度應用程序，但它也可用於一系列行業。考慮高效、公平、準確的調度。想想 LogiKCo。</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H2_P" xml:space="preserve">
+    <value>瘋狂換班？休息日不同？技能要求？訓練？隨著時間的推移？離開管理層？第三方薪資跟不上？我們可以繼續前進……是的，我們可以處理它。</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H3_P" xml:space="preserve">
+    <value>ASAP 可以設定為提示管理員。這就像擁有一個無所不知的私人秘書。</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H4_P" xml:space="preserve">
+    <value>如果規則改變，那麼比賽計畫也必須改變。想要靈活的調度解決方案嗎？盡快思考。想想 LogiKCo。</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H5_P" xml:space="preserve">
+    <value> ASAP可以處理無數的調度規則，並且它可以作為調度資料的強大記錄管理。  但最終用戶只能看到有組織且用戶友好的螢幕。根據使用者角色權限，可以透過多種方式提供資料。</value>
+    <comment/>
+  </data>
+  <data name="CAD_H1" xml:space="preserve">
+    <value>關於CAD</value>
+    <comment/>
+  </data>
+  <data name="CAD_H2" xml:space="preserve">
+    <value>呼叫接聽者、調度和參考螢幕</value>
+    <comment/>
+  </data>
+  <data name="CAD_H3" xml:space="preserve">
+    <value>自動資源推薦</value>
+    <comment/>
+  </data>
+  <data name="CAD_H4" xml:space="preserve">
+    <value>地圖和通知</value>
+    <comment/>
+  </data>
+  <data name="CAD_H5" xml:space="preserve">
+    <value>遣散！</value>
+    <comment/>
+  </data>
+  <data name="CAD_H1_P" xml:space="preserve">
+    <value>LogiKCo 的電腦輔助調度最初是為了幫助警察、消防和 EMS 響應 911 呼叫而開發的。因此，我們的 CAD 建立在強大而靈活的調度規則之上，具有大量提示和用戶友好的螢幕，可實現快速調度操作。  需要調度公共安全、汽車服務、搬家、卡車運輸等？快速思考。思考準確。想想 LogiKCo。</value>
+    <comment/>
+  </data>
+  <data name="CAD_H2_P" xml:space="preserve">
+    <value>最重要的資料接收者是Dispatcher。我們的 CAD 透過與呼叫處理、GIS、AVL、MDT、RMS 等介面為調度員提供全面的資料。</value>
+    <comment/>
+  </data>
+  <data name="CAD_H3_P" xml:space="preserve">
+    <value>LogiKCo 的 CAD 根據配置的規則、回應計畫和地理可用性推薦正確的資源。</value>
+    <comment/>
+  </data>
+  <data name="CAD_H4_P" xml:space="preserve">
+    <value>可配置的情境和事件等待通知以及多視圖和即時地圖為調度員提供了快速準確地完成工作所需的關鍵工具。</value>
+    <comment/>
+  </data>
+  <data name="CAD_H5_P" xml:space="preserve">
+    <value>LogiKCo 的 CAD 管理數據，使調度變得簡單且合乎邏輯。正確的資源及時到達正確的位置。需要調度公共安全、汽車服務、搬家、卡車運輸等？ 想想 LogiKCo。</value>
+    <comment/>
+  </data>
+  <data name="RMS_H1" xml:space="preserve">
+    <value>關於 RMS</value>
+    <comment/>
+  </data>
+  <data name="RMS_H2" xml:space="preserve">
+    <value>事故報告</value>
+    <comment/>
+  </data>
+  <data name="RMS_H3" xml:space="preserve">
+    <value>全面的查詢和管理報告</value>
+    <comment/>
+  </data>
+  <data name="RMS_H4" xml:space="preserve">
+    <value>法律與秩序</value>
+    <comment/>
+  </data>
+  <data name="RMS_H5" xml:space="preserve">
+    <value>可在行動裝置上使用！</value>
+    <comment/>
+  </data>
+  <data name="RMS_H1_P" xml:space="preserve">
+    <value>我們的 RMS 是與執法部門合作並為執法部門開發的。因此，它的基礎建立在人員、車輛、位置、財產和組織的有效主指數之上。我們的 RMS 可透過多種行動裝置存取，包括全面的查詢和報告功能。它旨在與重要的第三方應用程式集成，例如電腦輔助調度以及人員和車輛驗證系統。敘述範本功能、工作流程管理和資料共享使該系統成為一個有效的工具；允許執法部門服務和保護他們的社區。</value>
+    <comment/>
+  </data>
+  <data name="RMS_H2_P" xml:space="preserve">
+    <value>實際上，它是事件報告、案件管理、逮捕和預訂、批量逮捕、財產和證據管理、逮捕令、現場訪談…</value>
+    <comment/>
+  </data>
+  <data name="RMS_H3_P" xml:space="preserve">
+    <value>如果沒有大量報告來呈現事實和數據，RMS 就不是 RMS。透過大量查詢存取、調查和連接大量資訊。</value>
+    <comment/>
+  </data>
+  <data name="RMS_H4_P" xml:space="preserve">
+    <value>LogiKCo 了解為執法收集的數據通常必須經過嚴格的協議和工作流程管理。所以是的，我們內建了該功能！</value>
+    <comment/>
+  </data>
+  <data name="RMS_H5_P" xml:space="preserve">
+    <value>執法人員經常在現場。如果他們無法在行動裝置和行動裝置終端上存取這些數據，那麼所有這些數據都毫無用處。 提前思考。想想 LogiKCo。</value>
+    <comment/>
+  </data>
+  <data name="CY_H1" xml:space="preserve">
+    <value>關於CY</value>
+    <comment/>
+  </data>
+  <data name="CY_H1_P" xml:space="preserve">
+    <value>即時派遣控制幫助集裝箱物流業者高效完成任務。在競爭激烈的物流行業中，時間就是金錢，任何延誤都可能導致額外成本和效率損失。透過即時派遣控制系統，物流業者能夠精確調度每一個運輸任務，無論是從集裝箱裝卸到運送，都能在最佳時間內完成。系統自動化的任務分配功能能根據實際情況即時調整，優化車輛和人力資源的運用，確保作業流暢且準時，顯著提升整體運營效率。這不僅縮短了運輸時間，還能減少等待和不必要的資源浪費，最終為客戶提供更具競爭力的服務，並增加企業的利潤空間。</value>
+    <comment/>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>查看更多</value>
+    <comment/>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>查看更多</value>
+    <comment/>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>查看更多</value>
+    <comment/>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>聯絡我們</value>
+    <comment/>
+  </data>
+  <data name="SampleText" xml:space="preserve">
+    <value>這是關於尋找更好的做事方式，挑戰極限，是的，設定新標準。我們正在利用科技幫助個人和組織超越期望。所以把你的標準定得高一些。想想 LogiKCo。</value>
     <comment/>
   </data>
 </root>

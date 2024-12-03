@@ -194,7 +194,7 @@
     <comment/>
   </data>
   <data name="Home_Solutions_Data_SDDS" xml:space="preserve">
-    <value>SDDS (Secure Document Delivery System)</value>
+    <value>SDDS</value>
     <comment/>
   </data>
   <data name="Home_Solutions_Data_SDDS_P" xml:space="preserve">
@@ -290,11 +290,11 @@
     <comment/>
   </data>
   <data name="Home_Success_C_U1_P" xml:space="preserve">
-    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <value>Since implementing the real-time dispatch control system, our logistics operations have become much more efficient. With real-time updates on scheduling and cargo tracking, delays have been significantly reduced, greatly improving our overall service quality.</value>
     <comment/>
   </data>
   <data name="Home_Success_C_U2_Name" xml:space="preserve">
-    <value>User Name</value>
+    <value>Client Name</value>
     <comment/>
   </data>
   <data name="Home_Success_C_U2_JD" xml:space="preserve">
@@ -302,7 +302,7 @@
     <comment/>
   </data>
   <data name="Home_Success_C_U2_P" xml:space="preserve">
-    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <value>Since implementing the real-time dispatch control system, our logistics operations have become much more efficient. With real-time updates on scheduling and cargo tracking, delays have been significantly reduced, greatly improving our overall service quality.</value>
     <comment/>
   </data>
   <data name="Home_Success_C_U3_Name" xml:space="preserve">
@@ -314,7 +314,7 @@
     <comment/>
   </data>
   <data name="Home_Success_C_U3_P" xml:space="preserve">
-    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
+    <value>Since implementing the real-time dispatch control system, our logistics operations have become much more efficient. With real-time updates on scheduling and cargo tracking, delays have been significantly reduced, greatly improving our overall service quality.</value>
     <comment/>
   </data>
   <data name="Home_TF_C1" xml:space="preserve">
@@ -519,6 +519,194 @@
   </data>
   <data name="ContactUs_Form_Submit" xml:space="preserve">
     <value>Submit</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H1" xml:space="preserve">
+    <value>About SDDS</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H2" xml:space="preserve">
+    <value>Customize it!</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H3" xml:space="preserve">
+    <value>Authorized Personnel Only</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H4" xml:space="preserve">
+    <value>Secured Collaboration</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H1_P" xml:space="preserve">
+    <value>Whether information is in a simple flat file or is complex and gathered from multiple sources, SDDS allows any organization or business to securely receive, store, manage, then share critical content. SDDS is also highly customizable and has a platform which is configurable by end users with authorized role access.</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H2_P" xml:space="preserve">
+    <value>In addition to a highly configurable platform, SDDS also allows content to be configured as needed. Critical content can be received, reformatted, then securely delivered to authorized end users.</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H3_P" xml:space="preserve">
+    <value>SDDS can utilize various identity management systems to ensure that secure information is accessed by specified and authorized personnel only.</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H4_P" xml:space="preserve">
+    <value>SDDS provides Secured Document Centers to enable seamless collaboration among multiple agencies or departments of an organization.  Document Centers are secure, easy to manage and configurable for mandatory business requirements.</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H5" xml:space="preserve">
+    <value>Follow that Fingerprint!</value>
+    <comment/>
+  </data>
+  <data name="SDDS_H5_P" xml:space="preserve">
+    <value>SDDS is currently used by Federal and State Agencies. Through services provided by SDDS, thousands of Law Enforcement Agencies are able to access, share and utilize up-to-date and critical data from fingerprint submissions and related documentation.</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H1" xml:space="preserve">
+    <value>About ASAP</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H2" xml:space="preserve">
+    <value>Complex Rule Management</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H3" xml:space="preserve">
+    <value>Prompts &amp; Alerts</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H4" xml:space="preserve">
+    <value>Configurable</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H5" xml:space="preserve">
+    <value>So Many Ways to Schedule!</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H1_P" xml:space="preserve">
+    <value>ASAP was originally designed for public safety organizations such as 911 Dispatch Centers, Police, and Fire Departments because their staff need to be available 24/7 to serve and protect their communities. Their scheduling requirements are layered and complex, often changing with evolving union rules and guidelines.  Today our scheduling application is still used by public safety, but it’s also available to a range of industries. Think efficient, fair, and accurate scheduling. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H2_P" xml:space="preserve">
+    <value>Crazy shifts? Varying days off? Skill requirements? Training? Overtime? Leave Management? 3rd Party Payroll that can’t keep up? We can keep going… and yup, we can handle it.</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H3_P" xml:space="preserve">
+    <value>ASAP can be configured to cue administrators. It’s like having a personal secretary that knows everything.</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H4_P" xml:space="preserve">
+    <value>If the rules change, then the game plan has to change. Want a flexible scheduling solution? Think ASAP. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="ASAP_H5_P" xml:space="preserve">
+    <value>ASAP can handle endless rules for scheduling and it serves as a powerful records management for scheduling data.  But end users only see organized and user-friendly screens. Data is served up in a variety of ways depending on user role privileges.</value>
+    <comment/>
+  </data>
+  <data name="CAD_H1" xml:space="preserve">
+    <value>About CAD</value>
+    <comment/>
+  </data>
+  <data name="CAD_H2" xml:space="preserve">
+    <value>Call Taker, Dispatch, and Reference screens</value>
+    <comment/>
+  </data>
+  <data name="CAD_H3" xml:space="preserve">
+    <value>Automatic Resource Recommendation</value>
+    <comment/>
+  </data>
+  <data name="CAD_H4" xml:space="preserve">
+    <value>Maps and Notifications</value>
+    <comment/>
+  </data>
+  <data name="CAD_H5" xml:space="preserve">
+    <value>Dispatch Away!</value>
+    <comment/>
+  </data>
+  <data name="CAD_H1_P" xml:space="preserve">
+    <value>LogiKCo’s Computer Aided Dispatch was first developed to help Police, Fire, and EMS respond to 911 calls. As a result, our CAD is built on powerful, but flexible dispatch rules with numerous prompts and user-friendly screens allowing quick dispatch action.  Need to dispatch for public safety, car service, moving, trucking, and more? Think Fast. Think Accurate. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="CAD_H2_P" xml:space="preserve">
+    <value>The most important receiver of data is the Dispatcher.  Our CAD provides dispatchers comprehensive data via interfaces with Call Handling, GIS, AVL, MDT, RMS, and more.</value>
+    <comment/>
+  </data>
+  <data name="CAD_H3_P" xml:space="preserve">
+    <value>LogiKCo’s CAD recommends the right resource based on configured rules, response plans, and geographic availability.</value>
+    <comment/>
+  </data>
+  <data name="CAD_H4_P" xml:space="preserve">
+    <value>Configurable Situational and Event-Waiting Notifications along with Multi-view and Real-time Maps give Dispatchers the critical tools needed to get the job done quickly and accurately.</value>
+    <comment/>
+  </data>
+  <data name="CAD_H5_P" xml:space="preserve">
+    <value>LogiKCo’s CAD manages data so that Dispatching is easy and logical.  The right resources get to the right location in a timely manner.  Need to dispatch for public safety, car service, moving, trucking, and more? Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="RMS_H1" xml:space="preserve">
+    <value>About Our RMS</value>
+    <comment/>
+  </data>
+  <data name="RMS_H2" xml:space="preserve">
+    <value>Incident Reporting</value>
+    <comment/>
+  </data>
+  <data name="RMS_H3" xml:space="preserve">
+    <value>Comprehensive Queries and Management Reports</value>
+    <comment/>
+  </data>
+  <data name="RMS_H4" xml:space="preserve">
+    <value>Law and Order</value>
+    <comment/>
+  </data>
+  <data name="RMS_H5" xml:space="preserve">
+    <value>Available on Mobile Devices!</value>
+    <comment/>
+  </data>
+  <data name="RMS_H1_P" xml:space="preserve">
+    <value>Our RMS was developed in collaboration with and for law enforcement. As a result, it’s foundation is built on efficient master indices for People, Vehicles, Locations, Property, and Organizations. Accessible from multiple mobile devices, our RMS includes comprehensive querying and reporting functionality. It was designed to integrate with crucial third party applications such as Computer Aided Dispatch as well as Person and Vehicle Verification Systems. Narrative template capability, workflow management, and data sharing make this system an effective tool; allowing law enforcement to serve and protect their communities.</value>
+    <comment/>
+  </data>
+  <data name="RMS_H2_P" xml:space="preserve">
+    <value>Actually, it’s Incident Reporting, Case Management, Arrest &amp; Booking, Bulk Arrests, Property &amp; Evidence Management, Warrants, Field Interviews…</value>
+    <comment/>
+  </data>
+  <data name="RMS_H3_P" xml:space="preserve">
+    <value>An RMS isn’t an RMS without extensive reports to present the facts and figures.  Access, investigate, and connect a deep inventory of information with numerous queries.</value>
+    <comment/>
+  </data>
+  <data name="RMS_H4_P" xml:space="preserve">
+    <value>LogiKCo understands that data collected for law enforcement must often go through strict protocol and workflow management.  So yes, we have that functionality built in!</value>
+    <comment/>
+  </data>
+  <data name="RMS_H5_P" xml:space="preserve">
+    <value>Law Enforcement personnel are often in the field.  All that data is no use if they can’t access it on their mobile devices and Mobile Device Terminals.  Think Ahead. Think LogiKCo.</value>
+    <comment/>
+  </data>
+  <data name="CY_H1" xml:space="preserve">
+    <value>About CY</value>
+    <comment/>
+  </data>
+  <data name="CY_H1_P" xml:space="preserve">
+    <value>Real-time dispatch control helps container logistics operators complete tasks efficiently. In the competitive logistics industry, time is money, and any delays can lead to extra costs and reduced efficiency. With a real-time dispatch control system, operators can accurately allocate each transport task, ensuring tasks such as container loading and transportation are completed on time. The system's automated task assignment adjusts dynamically based on real-time conditions, optimizing the use of vehicles and human resources to ensure smooth and punctual operations. This reduces transportation time, minimizes waiting, and cuts unnecessary resource waste, ultimately offering more competitive services and increasing profit margins for the business.</value>
+    <comment/>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Learn More</value>
+    <comment/>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>View More</value>
+    <comment/>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Read More</value>
+    <comment/>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contact Us</value>
+    <comment/>
+  </data>
+  <data name="SampleText" xml:space="preserve">
+    <value>It’s about finding a better way of doing things, pushing the envelope, and yes, setting a new standard. We’re using technology to help individuals and organizations exceed expectations. So set your bar high. Think LogiKCo.</value>
     <comment/>
   </data>
 </root>
